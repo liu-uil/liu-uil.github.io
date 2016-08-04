@@ -1,0 +1,956 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Griffonage</title>
+  <subtitle>杨柳的博客</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2016-08-04T09:38:43.000Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>liu-uil</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2016/08/04/hello-world/"/>
+    <id>http://yoursite.com/2016/08/04/hello-world/</id>
+    <published>2016-08-04T09:38:43.000Z</published>
+    <updated>2016-08-04T09:38:43.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>给Python开发者的PHP初级教程</title>
+    <link href="http://yoursite.com/2016/08/04/%E7%BB%99Python%E5%BC%80%E5%8F%91%E8%80%85%E7%9A%84PHP%E5%88%9D%E7%BA%A7%E6%95%99%E7%A8%8B/"/>
+    <id>http://yoursite.com/2016/08/04/给Python开发者的PHP初级教程/</id>
+    <published>2016-08-04T08:38:30.000Z</published>
+    <updated>2016-08-04T10:18:16.000Z</updated>
+    
+    <content type="html"><![CDATA[<hr>
+<blockquote>
+<p>这里找到一份<a href="https://www.ibm.com/developerworks/cn/opensource/os-php-pythonbasics/" target="_blank" rel="external">适用于 PHP 开发人员的 Python 基础知识</a>，暂时没有找到逆向的，所以记录一下自己做的对比</p>
+</blockquote>
+<p>共有部分</p>
+<ul>
+<li>变量</li>
+<li>字符串</li>
+<li>列表，字典</li>
+<li>打印</li>
+<li>函数</li>
+<li>for</li>
+<li>if</li>
+<li>while</li>
+<li>类<br>PHP有,Python没有：</li>
+<li>switch</li>
+<li>do…while</li>
+<li>常量</li>
+<li>静态变量<br>Python有，PHP没有：</li>
+<li>tuple</li>
+</ul>
+<h4 id="1-变量"><a href="#1-变量" class="headerlink" title="1 变量"></a>1 变量</h4><table>
+<thead>
+<tr>
+<th>语言</th>
+<th>定义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Python</td>
+<td>a = 1 #不需要美元符号，区分大小写，其他都类似</td>
+</tr>
+<tr>
+<td>PHP</td>
+<td>\$a = 1; #需要美元符号，区分大小写，且需要分号结尾</td>
+</tr>
+</tbody>
+</table>
+<h4 id="2-字符串"><a href="#2-字符串" class="headerlink" title="2 字符串"></a>2 字符串</h4><table>
+<thead>
+<tr>
+<th>语言</th>
+<th>定义</th>
+<th>求长度</th>
+<th>找第一个子串</th>
+<th>切片</th>
+<th>拆分</th>
+<th>大小写</th>
+<th>替换</th>
+<th>开头/结尾匹配</th>
+<th>衔接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Python</td>
+<td>a = ‘abc’</td>
+<td>len(a)</td>
+<td>a.index(‘bc’)</td>
+<td>a[1:2]</td>
+<td>a.split(‘b’)</td>
+<td>a.lower() a.upper()</td>
+<td>a.replace(‘b’, ‘d’)</td>
+<td>a.startswith(‘a’) a.endswith(‘b’)</td>
+<td>‘’.join(list1) str1 = str1 + str2</td>
+</tr>
+<tr>
+<td>PHP</td>
+<td>\$a = ‘abc’;</td>
+<td>strlen(a)</td>
+<td>strpos(\$a, ‘bc’)</td>
+<td>无</td>
+<td>str_split(\$a, 2) 按照数量拆分</td>
+<td>strtolower(\$a) strtoupper(\$a)</td>
+<td>strtr(\$a, ‘b’, ‘d’)</td>
+<td>无</td>
+<td>implode(\$list1); \$str1 = \$str1 . \$str2;</td>
+</tr>
+</tbody>
+</table>
+<h4 id="3-列表和字典"><a href="#3-列表和字典" class="headerlink" title="3 列表和字典"></a>3 列表和字典</h4><p>Python 中列表和字典的定义是分开的，但是PHP中都是通过array实现</p>
+<table>
+<thead>
+<tr>
+<th>语言</th>
+<th>定义</th>
+<th>排序</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Python</td>
+<td>lista = [1,2,3] dicta = {1:’a’, 2:’b’, 3:’c’}</td>
+<td>lista.sort() sorted(lista) sorted(dicta.items(), key=lambda x: x<a href="https://www.ibm.com/developerworks/cn/opensource/os-php-pythonbasics/" target="_blank" rel="external">1</a>)</td>
+</tr>
+<tr>
+<td>PHP</td>
+<td>\$lista = array(1,2,3); \$dicta = array(1=&gt;’a’, 2=&gt;’b’, 3=&gt;’c’);</td>
+<td>sort(\$lista); asort(\$dicta)</td>
+</tr>
+</tbody>
+</table>
+<h4 id="4-打印"><a href="#4-打印" class="headerlink" title="4 打印"></a>4 打印</h4><table>
+<thead>
+<tr>
+<th>语言</th>
+<th>用法</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Python</td>
+<td>print(‘abc’, ‘def’)</td>
+</tr>
+<tr>
+<td>PHP</td>
+<td>echo ‘abc’, ‘def’;</td>
+</tr>
+</tbody>
+</table>
+<h4 id="5-函数"><a href="#5-函数" class="headerlink" title="5 函数"></a>5 函数</h4><table>
+<thead>
+<tr>
+<th>语言</th>
+<th>定义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Python</td>
+<td>def foo(para1, para2):\n\s\s\s\spass #Python使用格式区分函数</td>
+</tr>
+<tr>
+<td>PHP</td>
+<td>function foo(\$para1, \$para2){ echo ‘abc’;} #PHP中用花括号</td>
+</tr>
+</tbody>
+</table>
+<h4 id="6-for"><a href="#6-for" class="headerlink" title="6 for"></a>6 for</h4><p>Python<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">for i in range(20):</div><div class="line">    print(i)</div></pre></td></tr></table></figure></p>
+<p>PHP<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">for($i = 0;  $i &lt; 20; $i++)&#123;</div><div class="line">    echo $i;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<h4 id="7-if"><a href="#7-if" class="headerlink" title="7 if"></a>7 if</h4><p>Python<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">a = 5</div><div class="line">if a &gt; 10 :</div><div class="line">    print(a)</div><div class="line">else:</div><div class="line">    print(&apos;error&apos;)</div></pre></td></tr></table></figure></p>
+<p>PHP<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">$a = 5;</div><div class="line">if ($a &gt; 10)&#123;</div><div class="line">    echo $a;</div><div class="line">&#125;</div><div class="line">else&#123;</div><div class="line">    echo &apos;error&apos;;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<h4 id="8-while"><a href="#8-while" class="headerlink" title="8 while"></a>8 while</h4><p>Python<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">i = 1</div><div class="line">while i &lt; 10:</div><div class="line">    print(&apos;less than 10&apos;)</div><div class="line">    i += 1</div></pre></td></tr></table></figure></p>
+<p>PHP<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">$x = 1;</div><div class="line">while($x&lt;=5) &#123;</div><div class="line">echo &quot;这个数字是：$x &lt;br\&gt;&quot;;</div><div class="line">$x++;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<h4 id="9-类"><a href="#9-类" class="headerlink" title="9 类"></a>9 类</h4><p>Python<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div></pre></td><td class="code"><pre><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">Employee</span>:</span></div><div class="line">    <span class="comment">#Python 中没有声明这一说法，所以只能定义</span></div><div class="line">    empCount = <span class="number">0</span></div><div class="line"></div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span><span class="params">(self, name, salary)</span>:</span></div><div class="line">        self.name = name</div><div class="line">        self.salary = salary</div><div class="line">        Employee.empCount += <span class="number">1</span></div><div class="line">   </div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">displayCount</span><span class="params">(self)</span>:</span></div><div class="line">        print(<span class="string">"Total Employee %d"</span> % Employee.empCount)</div><div class="line"></div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">displayEmployee</span><span class="params">(self)</span>:</span></div><div class="line">        print(<span class="string">"Name : "</span>, self.name,  <span class="string">", Salary: "</span>, self.salary)</div><div class="line">    </div><div class="line">    <span class="comment"># 一般成员函数  </span></div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">func0</span><span class="params">(self)</span>:</span>  </div><div class="line">        <span class="keyword">pass</span>  </div><div class="line">  </div><div class="line">    <span class="comment"># 静态成员函数，参数可以为空  </span></div><div class="line"><span class="meta">    @staticmethod  </span></div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">func1</span><span class="params">()</span>:</span>  </div><div class="line">        <span class="keyword">pass</span>  </div><div class="line">  </div><div class="line">    <span class="comment"># 类函数，参数为一个类  </span></div><div class="line"><span class="meta">    @classmethod  </span></div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">func2</span><span class="params">(cls)</span>:</span>  </div><div class="line">        <span class="keyword">pass</span>  </div><div class="line">    <span class="comment">#Python的析构函数不是按照创建顺序执行，所以一般不手动写</span></div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__del__</span><span class="params">(self)</span>:</span></div><div class="line">        <span class="keyword">pass</span></div></pre></td></tr></table></figure></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#python继承</span></div><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">A</span><span class="params">(B, C)</span>:</span></div><div class="line">    <span class="keyword">pass</span></div></pre></td></tr></table></figure>
+<p>PHP<br><figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;?</span></div><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">Person</span></span></div><div class="line">&#123;</div><div class="line">    <span class="comment">// 下面是人的成员属性</span></div><div class="line">    <span class="keyword">var</span> $name;    <span class="comment">// 人的名子</span></div><div class="line">    <span class="keyword">var</span> $sex;    <span class="comment">// 人的性别</span></div><div class="line">    <span class="keyword">var</span> $age;    <span class="comment">// 人的年龄</span></div><div class="line">    <span class="comment">// 定义一个构造方法参数为姓名$name、性别$sex和年龄$age</span></div><div class="line">    <span class="function"><span class="keyword">function</span> <span class="title">__construct</span><span class="params">($name, $sex, $age)</span> </span></div><div class="line">    &#123;</div><div class="line">        <span class="comment">// 通过构造方法传进来的$name给成员属性$this-&gt;name赋初使值</span></div><div class="line">        <span class="keyword">$this</span>-&gt;name = $name;</div><div class="line">        </div><div class="line">        <span class="comment">// 通过构造方法传进来的$sex给成员属性$this-&gt;sex赋初使值</span></div><div class="line">        <span class="keyword">$this</span>-&gt;sex = $sex;</div><div class="line">        </div><div class="line">        <span class="comment">// 通过构造方法传进来的$age给成员属性$this-&gt;age赋初使值</span></div><div class="line">        <span class="keyword">$this</span>-&gt;age = $age;</div><div class="line">    &#125;</div><div class="line">    <span class="comment">// 这个人的说话方法</span></div><div class="line">    <span class="function"><span class="keyword">function</span> <span class="title">say</span><span class="params">()</span> </span></div><div class="line">    &#123;</div><div class="line">        <span class="keyword">echo</span> <span class="string">"我的名子叫："</span> . <span class="keyword">$this</span>-&gt;name . <span class="string">" 性别："</span> . <span class="keyword">$this</span>-&gt;sex . <span class="string">" 我的年龄是："</span> . <span class="keyword">$this</span>-&gt;age;</div><div class="line">    &#125;</div><div class="line">    <span class="comment">// 这是一个析构函数,在对象销毁前调用，后进先出原则</span></div><div class="line">    <span class="function"><span class="keyword">function</span> <span class="title">__destruct</span><span class="params">()</span> </span></div><div class="line">    &#123;</div><div class="line">        <span class="keyword">echo</span> <span class="string">"再见"</span> . <span class="keyword">$this</span>-&gt;name;</div><div class="line">    &#125;</div><div class="line">&#125;</div><div class="line"><span class="meta">?&gt;</span></div></pre></td></tr></table></figure></p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">\\PHP继承，不支持继承自多个类，没有重载，只有覆盖</div><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">A</span> <span class="keyword">extends</span> <span class="title">B</span></span>&#123;</div><div class="line">    <span class="keyword">var</span> $a;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p><strong>PHP有,Python没有</strong></p>
+<h4 id="10-switch"><a href="#10-switch" class="headerlink" title="10 switch"></a>10 switch</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line">switch ($x)</div><div class="line">&#123;</div><div class="line">case 1:</div><div class="line">    echo &quot;Number 1&quot;;</div><div class="line">    break;</div><div class="line">case 2:</div><div class="line">    echo &quot;Number 2&quot;;</div><div class="line">    break;</div><div class="line">case 3:</div><div class="line">    echo &quot;Number 3&quot;;</div><div class="line">    break;</div><div class="line">default:</div><div class="line">    echo &quot;No number between 1 and 3&quot;;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h4 id="11-do…while"><a href="#11-do…while" class="headerlink" title="11 do…while"></a>11 do…while</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">$x=6;</div><div class="line">do &#123;</div><div class="line">    echo &quot;这个数字是：$x &lt;br&gt;&quot;;</div><div class="line">    $x++;</div><div class="line">&#125; while ($x&lt;=5);</div><div class="line">#会执行一次，先执行再判断</div></pre></td></tr></table></figure>
+<h4 id="12-常量"><a href="#12-常量" class="headerlink" title="12 常量"></a>12 常量</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">define(&quot;GREETING&quot;, &quot;Welcome to W3School.com.cn!&quot;);</div><div class="line">echo GREETING;</div><div class="line">#可选的第三个参数规定**常量名**是否对大小写敏感。默认是 false。</div><div class="line">define(&quot;GREETING&quot;, &quot;Welcome to W3School.com.cn!&quot;, true);</div><div class="line">echo greeting;</div></pre></td></tr></table></figure>
+<h4 id="12-静态变量"><a href="#12-静态变量" class="headerlink" title="12 静态变量"></a>12 静态变量</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div></pre></td><td class="code"><pre><div class="line">function myTest() &#123;</div><div class="line">    static $x=0;</div><div class="line">    echo $x;</div><div class="line">    $x++;</div><div class="line">&#125;</div><div class="line"></div><div class="line">myTest();</div><div class="line">echo &quot;&lt;br&gt;&quot;;</div><div class="line">myTest();</div><div class="line">echo &quot;&lt;br&gt;&quot;;</div><div class="line">myTest();</div><div class="line">echo &quot;&lt;br&gt;&quot;;</div><div class="line">myTest();</div><div class="line">echo &quot;&lt;br&gt;&quot;;</div><div class="line">myTest();</div><div class="line">#输出</div><div class="line">#0</div><div class="line">#1</div><div class="line">#2</div><div class="line">#3</div><div class="line">#4</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这里找到一份&lt;a href=&quot;https://www.ibm.com/developerworks/cn/opensource/os-php-pythonbasics/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;适用
+    
+    </summary>
+    
+      <category term="PHP" scheme="http://yoursite.com/categories/PHP/"/>
+    
+    
+      <category term="方法" scheme="http://yoursite.com/tags/%E6%96%B9%E6%B3%95/"/>
+    
+      <category term="原创" scheme="http://yoursite.com/tags/%E5%8E%9F%E5%88%9B/"/>
+    
+      <category term="Python" scheme="http://yoursite.com/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CentOS PHP7.0 基础安装与配置</title>
+    <link href="http://yoursite.com/2016/08/04/CentOS-PHP7-0-%E5%9F%BA%E7%A1%80%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/"/>
+    <id>http://yoursite.com/2016/08/04/CentOS-PHP7-0-基础安装与配置/</id>
+    <published>2016-08-04T08:38:19.000Z</published>
+    <updated>2016-08-04T09:53:46.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p>官方文档见<a href="http://php.net/manual/zh/install.unix.nginx.php" target="_blank" rel="external">Unix 系统下的 Nginx 1.4.x</a><br>官方文档有2点问题</p>
+<ol>
+<li>命令参数没更新，</li>
+<li>关于配置也不够详细，详见后文</li>
+</ol>
+</blockquote>
+<h4 id="1-下载"><a href="#1-下载" class="headerlink" title="1 下载"></a>1 下载</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">    wget http://cn2.php.net/distributions/php-7.0.5.tar.gz</div><div class="line">```    </div><div class="line">#### 2 解压缩</div><div class="line">```shell</div><div class="line">    tar zxf php-x.x.x</div></pre></td></tr></table></figure>
+<h4 id="3-编译"><a href="#3-编译" class="headerlink" title="3 编译"></a>3 编译</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">cd ../php-x.x.x</div><div class="line">./configure --enable-fpm --with-mysqli  #此处应该是mysqli，而非mysql</div><div class="line">make -j8</div><div class="line">sudo make install</div></pre></td></tr></table></figure>
+<h4 id="4-将配置文件复制到正确的位置"><a href="#4-将配置文件复制到正确的位置" class="headerlink" title="4 将配置文件复制到正确的位置"></a>4 将配置文件复制到正确的位置</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">sudo cp php.ini-development /usr/local/php/php.ini</div><div class="line">sudo cp /usr/local/etc/php-fpm.conf.default /usr/local/etc/php-fpm.conf</div><div class="line">sudo cp sapi/fpm/php-fpm /usr/local/bin</div></pre></td></tr></table></figure>
+<h4 id="5-将-php-ini-文件中的配置项-cgi-fix-pathinfo-设置为-0-。"><a href="#5-将-php-ini-文件中的配置项-cgi-fix-pathinfo-设置为-0-。" class="headerlink" title="5 将 php.ini 文件中的配置项 cgi.fix_pathinfo 设置为 0 。"></a>5 将 php.ini 文件中的配置项 cgi.fix_pathinfo 设置为 0 。</h4><p>如果文件不存在，则阻止 Nginx 将请求发送到后端的 PHP-FPM 模块， 以避免遭受恶意脚本注入的攻击。<br>打开 php.ini:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">vim /usr/local/php/php.ini</div><div class="line">#定位到 cgi.fix_pathinfo= 并将其修改为如下所示：</div><div class="line">cgi.fix_pathinfo=0</div></pre></td></tr></table></figure></p>
+<h4 id="6-修改php-fpm-conf-配置文件"><a href="#6-修改php-fpm-conf-配置文件" class="headerlink" title="6 修改php-fpm.conf 配置文件"></a>6 修改php-fpm.conf 配置文件</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">#默认是无效路径，需修改</div><div class="line">include=/usr/local/etc/php-fpm.d/*.conf</div><div class="line">#复制一份默认配置文件，需以.conf结尾</div><div class="line">sudo cp /usr/local/etc/php-fpm.d/www.conf.default /usr/local/etc/php-fpm.d/myphp.conf</div><div class="line">#修改用户为</div><div class="line">user = www-data</div><div class="line">group = www-data</div><div class="line">#需新建用户www-data</div></pre></td></tr></table></figure>
+<h4 id="7-Nginx配置"><a href="#7-Nginx配置" class="headerlink" title="7 Nginx配置"></a>7 Nginx配置</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div></pre></td><td class="code"><pre><div class="line">#修改nginx配置</div><div class="line">#vim /usr/local/nginx/conf/nginx.conf</div><div class="line">server&#123;</div><div class="line">    listen       your_port; </div><div class="line">    server_name  your_ip;</div><div class="line">    access_log /home/liu-uil/logs/php_access.log;   </div><div class="line">    error_log /home/liu-uil/logs/php_error.log;  </div><div class="line">    location / &#123;</div><div class="line">        root   html;</div><div class="line">        index  index.php index.html index.htm;</div><div class="line">    &#125;</div><div class="line">    </div><div class="line">    location ~* \.php$ &#123;</div><div class="line">        fastcgi_index   index.php;</div><div class="line">        fastcgi_pass    127.0.0.1:9000;</div><div class="line">        include         fastcgi_params;</div><div class="line">        fastcgi_param   SCRIPT_FILENAME    $document_root$fastcgi_script_name;</div><div class="line">        fastcgi_param   SCRIPT_NAME        $fastcgi_script_name;</div><div class="line">    &#125;</div><div class="line">&#125;</div><div class="line">#sudo mv /usr/local/nginx-1.5.6/html/index.html /usr/local/nginx-1.5.6/html/index.html.bak</div><div class="line">#sudo vim /usr/local/nginx-1.5.6/html/index.php</div><div class="line">&lt;?php phpinfo(); ?&gt;</div></pre></td></tr></table></figure>
+<h4 id="8-重启Nginx"><a href="#8-重启Nginx" class="headerlink" title="8 重启Nginx"></a>8 重启Nginx</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">sudo /usr/local/nginx/sbin/nginx -s stop</div><div class="line">sudo /usr/local/nginx/sbin/nginx</div></pre></td></tr></table></figure>
+<p>访问your_ip:your_port就可以看到php的提示信息了。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;官方文档见&lt;a href=&quot;http://php.net/manual/zh/install.unix.nginx.php&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Unix 系统下的 Nginx 1.4.x&lt;/a&gt;&lt;br&gt;官
+    
+    </summary>
+    
+      <category term="PHP" scheme="http://yoursite.com/categories/PHP/"/>
+    
+    
+      <category term="环境部署" scheme="http://yoursite.com/tags/%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2/"/>
+    
+      <category term="配置" scheme="http://yoursite.com/tags/%E9%85%8D%E7%BD%AE/"/>
+    
+      <category term="原创" scheme="http://yoursite.com/tags/%E5%8E%9F%E5%88%9B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>用暴力猴做一个自定义微博分享按钮</title>
+    <link href="http://yoursite.com/2016/08/04/%E7%94%A8%E6%9A%B4%E5%8A%9B%E7%8C%B4%E5%81%9A%E4%B8%80%E4%B8%AA%E8%87%AA%E5%AE%9A%E4%B9%89%E5%BE%AE%E5%8D%9A%E5%88%86%E4%BA%AB%E6%8C%89%E9%92%AE/"/>
+    <id>http://yoursite.com/2016/08/04/用暴力猴做一个自定义微博分享按钮/</id>
+    <published>2016-08-04T08:38:06.000Z</published>
+    <updated>2016-08-04T10:17:59.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近看了点js，然后发现feedly分享功能要收费，记得Tampermonkey可以在页面外自己定义js,所以用js自己做了一个，还是有点意思的，下面是对步骤的一些记录。</p>
+<p>首先必须要在chrome安装Tampermonkey，略。</p>
+<p>然后就是Tampermonkey的使用了。<br>Tampermonkey主要分为了两个部分：注释段和代码段。<br>它的注释段也是有用的，提供了一些脚本执行的参数，所以需要按照一定的格式书写，注释段比较常用的几个参数是：</p>
+<ul>
+<li>@name The name of the script. 脚本名字，保存的时候就不再需要另命名了。</li>
+<li>@namespace The namespace of the script.避免和别的js中的名称冲突，如果以<code>http://</code>开头同时会被当作作者的主页。</li>
+<li>@match http://* More or less equal to the @include tag. </li>
+<li>@include The pages on that a script should run.</li>
+<li>@require Points to a JavaScript file that is loaded and executed before the script itself starts running.</li>
+</ul>
+<p>代码段就是正常的js代码了，可以当作是在原始页面加载完了后，就开始加载这段代码段。</p>
+<p>下面是完整的代码：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div></pre></td><td class="code"><pre><div class="line">// ==UserScript==</div><div class="line">// @name        CustomShare</div><div class="line">// @namespace    http://liu-uil.com/</div><div class="line">// @version      0.1</div><div class="line">// @description  try to take over the world!</div><div class="line">// @author       yangliu</div><div class="line">// @match http://*</div><div class="line">// @match https://*</div><div class="line">// @grant        none</div><div class="line">// @require     http://code.jquery.com/jquery-latest.js</div><div class="line">// @include    http:/*</div><div class="line">// @include    https://*</div><div class="line">// ==/UserScript==</div><div class="line"></div><div class="line">// Your code here...</div><div class="line"></div><div class="line">ImportCss();</div><div class="line">Share();</div><div class="line"></div><div class="line">function ImportCss() &#123;</div><div class="line">    var jqueryScriptBlock = document.createElement(&apos;style&apos;);</div><div class="line">    jqueryScriptBlock.type = &apos;text/css&apos;;</div><div class="line">    jqueryScriptBlock.innerHTML = &quot;#share &#123;position:fixed;bottom:30%;right:1px;border:1px solid gray;padding:3px;width:12px;font-size:12px;cursor:pointer;border-radius: 3px;text-shadow: 1px 1px 3px #676767;&#125;&quot;;</div><div class="line">    document.getElementsByTagName(&apos;head&apos;)[0].appendChild(jqueryScriptBlock);</div><div class="line">&#125;</div><div class="line"></div><div class="line">function Share() &#123;</div><div class="line">     $(document.body).append(&quot;&lt;div id=&apos;share&apos; &gt;分享&lt;/div&gt;&quot;);</div><div class="line">     $(&apos;#share&apos;).click(function () &#123; </div><div class="line">         var param = &#123;</div><div class="line">         url: window.location.href,</div><div class="line">         title: $(&quot;title&quot;).text()+&apos;\n\n——转发自自定义分享按钮&apos;,</div><div class="line">       &#125;;</div><div class="line">     window.open(getLink(&quot;http://service.weibo.com/share/share.php?&quot;, param));</div><div class="line">      &#125;);</div><div class="line">&#125;</div><div class="line"></div><div class="line">function getLink(link, param) &#123;</div><div class="line">    return link + addParam(param).join(&apos;&amp;&apos;);</div><div class="line">&#125;</div><div class="line"></div><div class="line">function addParam(param) &#123;</div><div class="line">    var temp = [];</div><div class="line">    for (var p in param) &#123;</div><div class="line">        temp.push(p + &apos;=&apos; + encodeURIComponent(param[p] || &apos;&apos;))</div><div class="line">    &#125;</div><div class="line">    return temp;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近看了点js，然后发现feedly分享功能要收费，记得Tampermonkey可以在页面外自己定义js,所以用js自己做了一个，还是有点意思的，下面是对步骤的一些记录。&lt;/p&gt;
+&lt;p&gt;首先必须要在chrome安装Tampermonkey，略。&lt;/p&gt;
+&lt;p&gt;然后就是Tam
+    
+    </summary>
+    
+      <category term="方法" scheme="http://yoursite.com/categories/%E6%96%B9%E6%B3%95/"/>
+    
+    
+      <category term="原创" scheme="http://yoursite.com/tags/%E5%8E%9F%E5%88%9B/"/>
+    
+      <category term="js" scheme="http://yoursite.com/tags/js/"/>
+    
+      <category term="Tamperymonkey" scheme="http://yoursite.com/tags/Tamperymonkey/"/>
+    
+      <category term="Chrome 插件" scheme="http://yoursite.com/tags/Chrome-%E6%8F%92%E4%BB%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>跳槽笔记</title>
+    <link href="http://yoursite.com/2016/08/04/%E8%B7%B3%E6%A7%BD%E7%AC%94%E8%AE%B0/"/>
+    <id>http://yoursite.com/2016/08/04/跳槽笔记/</id>
+    <published>2016-08-04T08:37:56.000Z</published>
+    <updated>2016-08-04T10:20:31.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>在新的公司已经上了半个月的班，参加了年会，参加了培训，也完成了几门考试，基本安顿下来了，这次换工作也算是一波三折，在入职本公司之前还在另家公司短暂待过几天，一家云计算小公司，鉴于浦东软件园食堂不好吃，犹豫再三换到了平安。最大的感受是人生真是随机。一晃离开了一群人，一晃加入了另一群人，对新的群体很满意，大家都很逗逼，对于一个技术人员来说，有饭吃，有个冬暖夏凉的环境，有个自由的网络就够了，现在还有附加的福利，听逗逼们讲笑话…</p>
+
+<p>要学还没学的东西还很多，攒着是因为想写成歌，最近被《山丘》洗脑中…现在其实最需要学会等待，等待的时候有耐心，也不怠慢，可以享受点，等待未来到来。</p>
+
+<p>还有很多，先占坑，以后再补…</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;在新的公司已经上了半个月的班，参加了年会，参加了培训，也完成了几门考试，基本安顿下来了，这次换工作也算是一波三折，在入职本公司之前还在另家公司短暂待过几天，一家云计算小公司，鉴于浦东软件园食堂不好吃，犹豫再三换到了平安。最大的感受是人生真是随机。一晃离开了一群人，一晃加入了
+    
+    </summary>
+    
+      <category term="扯淡" scheme="http://yoursite.com/categories/%E6%89%AF%E6%B7%A1/"/>
+    
+    
+      <category term="原创" scheme="http://yoursite.com/tags/%E5%8E%9F%E5%88%9B/"/>
+    
+      <category term="求职" scheme="http://yoursite.com/tags/%E6%B1%82%E8%81%8C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>倒引号（反引号）执行多条命令的问题</title>
+    <link href="http://yoursite.com/2016/08/04/%E5%80%92%E5%BC%95%E5%8F%B7%EF%BC%88%E5%8F%8D%E5%BC%95%E5%8F%B7%EF%BC%89%E6%89%A7%E8%A1%8C%E5%A4%9A%E6%9D%A1%E5%91%BD%E4%BB%A4%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <id>http://yoursite.com/2016/08/04/倒引号（反引号）执行多条命令的问题/</id>
+    <published>2016-08-04T08:37:39.000Z</published>
+    <updated>2016-08-04T10:17:42.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="1-倒引号是什么"><a href="#1-倒引号是什么" class="headerlink" title="1 倒引号是什么"></a>1 倒引号是什么</h3><p>``就是倒引号了，如果是thinkpad一般是ESC下面的那个按键。<br>在linux中倒引号表示被包起来的部分是命令，且在程序执行时，会被当做命令执行。</p>
+<h3 id="2-关于echo-ps-存在的问题"><a href="#2-关于echo-ps-存在的问题" class="headerlink" title="2 关于echo `ps`存在的问题"></a>2 关于echo `ps`存在的问题</h3><p>1.1 如果在终端中键入<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">echo `ps`</div></pre></td></tr></table></figure></p>
+<p>会发现ps的输出都被放到一行去了，用双引号包起来可以解决<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">echo &quot;`ps`&quot;</div></pre></td></tr></table></figure></p>
+<p>推测是echo的时候把换行符忽略了，但是如果是转换成字符串，换行符又会被解析，所以出现<br>1.2 如果有如下文本<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">#test</div><div class="line">echo 1</div><div class="line">echo 2</div><div class="line">echo 3</div></pre></td></tr></table></figure></p>
+<p>执行如下命令<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">`cat test`</div></pre></td></tr></table></figure></p>
+<p>得到的结果更奇怪：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$`cat test`</div><div class="line">1 echo 2 echo 3</div></pre></td></tr></table></figure></p>
+<p>只有第一个命令被解析成了命令，后面的都当做了参数<br>这是因为倒引号时一种扩展，只解析到cat test，之后会被当做纯文本，如果是在shell中执行，只执行一个echo<br>事实上，cat输出是可以区分出行的，如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">`cat test | sed -n &quot;2,2p&quot;`</div></pre></td></tr></table></figure></p>
+<p>这样是可以输出2的</p>
+<p>所以在倒引号中是不推荐用cat 命令的</p>
+<blockquote>
+<p>sh test</p>
+</blockquote>
+<h3 id="3-倒引号的升级版"><a href="#3-倒引号的升级版" class="headerlink" title="3 倒引号的升级版\$()"></a>3 倒引号的升级版\$()</h3><p>Note that Backtick is of the Bourne shell. Quoting and escaping becomes quickly a nightmare with it especially when you start nesting them. Ksh introduced the \$(…) alternative which is now standardized (POSIX) and supported by all shells (even the Bourne shell from Unix v9). So you should use \$(…) instead nowadays unless you need to be portable to very old Bourne shells.<br>一般情况这两者是可以替换的<br>需要注意的:<br>3.1 转义字符\在两者中的不同<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">$echo `echo \\\\ `</div><div class="line">\</div><div class="line">$echo $(echo \\\\ )</div><div class="line">\\</div></pre></td></tr></table></figure></p>
+<p>3.2 嵌套的不同<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">`echo \` commands \``</div><div class="line">not `echo `commands``</div><div class="line">$(echo $(commands))</div></pre></td></tr></table></figure></p>
+<p><a href="http://pubs.opengroup.org/onlinepubs/009695399/utilities/xcu_chap02.html#tag_02_06_03" target="_blank" rel="external">这里</a>有一些介绍：<br>Within the backquoted style of command substitution, backslash shall retain its literal meaning, except when followed by: ‘\$’, ‘`’, or ‘\’ (dollar sign, backquote, backslash).<br>With the $( command) form, all characters following the open parenthesis to the matching closing parenthesis constitute the command. Any valid shell script can be used for command, except a script consisting solely of redirections which produces unspecified results.<br>The results of command substitution shall not be processed for further tilde expansion, parameter expansion, command substitution, or arithmetic expansion. If a command substitution occurs inside double-quotes, field splitting and pathname expansion shall not be performed on the results of the substitution.</p>
+<h3 id="4-倒引号和单引号、双引号的区别"><a href="#4-倒引号和单引号、双引号的区别" class="headerlink" title="4 倒引号和单引号、双引号的区别"></a>4 倒引号和单引号、双引号的区别</h3><ul>
+<li><p>‘string’ 单引号 (single quote)<br>被单引号用括住的内容，将被视为单一字串。在引号内的代表变数的$符号，没有作用，也就是说，他被视为一般符号处理，防止任何变量替换。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">heyyou=home </div><div class="line">echo &apos;$heyyou&apos; # We get $heyyou</div></pre></td></tr></table></figure>
+</li>
+<li><p>“string” 双引号 (double quote)<br>被双引号用括住的内容，将被视为单一字串。它防止通配符扩展，但允许变量扩展。这点与单引数的处理方式不同。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">heyyou=homeecho </div><div class="line">&quot;$heyyou&quot; # We get home</div></pre></td></tr></table></figure>
+</li>
+<li><p>`command` 倒引号 (backticks)<br>在前面的单双引号，括住的是字串，但如果该字串是一列命令列，会怎样？答案是不会执行。要处理这种情况，我们得用倒单引号来做。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">fdv=\`date +%F\`</div><div class="line">echo &quot;Today $fdv&quot;</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>在倒引号内的 date +%F 会被视为指令，执行的结果会带入 fdv 变数中。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;1-倒引号是什么&quot;&gt;&lt;a href=&quot;#1-倒引号是什么&quot; class=&quot;headerlink&quot; title=&quot;1 倒引号是什么&quot;&gt;&lt;/a&gt;1 倒引号是什么&lt;/h3&gt;&lt;p&gt;``就是倒引号了，如果是thinkpad一般是ESC下面的那个按键。&lt;br&gt;在linux中倒
+    
+    </summary>
+    
+      <category term="Shell" scheme="http://yoursite.com/categories/Shell/"/>
+    
+    
+      <category term="原创" scheme="http://yoursite.com/tags/%E5%8E%9F%E5%88%9B/"/>
+    
+      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
+    
+      <category term="命令" scheme="http://yoursite.com/tags/%E5%91%BD%E4%BB%A4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python装饰器分析</title>
+    <link href="http://yoursite.com/2016/08/04/Python%E8%A3%85%E9%A5%B0%E5%99%A8%E5%88%86%E6%9E%90/"/>
+    <id>http://yoursite.com/2016/08/04/Python装饰器分析/</id>
+    <published>2016-08-04T08:37:29.000Z</published>
+    <updated>2016-08-04T10:16:36.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p><strong>装饰器</strong>是一个很著名的设计模式，经常被用于有切面需求的场景，较为经典的有插入日志、性能测试、事务处理等。装饰器是解决这类问题的绝佳设计，有了装饰器，我们就可以抽离出大量函数中与函数功能本身无关的雷同代码并继续重用。概括的讲，装饰器的作用就是为已经存在的对象添加额外的功能。</p>
+</blockquote>
+<h3 id="1-装饰器的原理"><a href="#1-装饰器的原理" class="headerlink" title="1.装饰器的原理"></a>1.装饰器的原理</h3><p>装饰器实现上是将函数作为参数传递给装饰器函数，然后返回一个新的函数，调用的时候实际上调用的是新的函数。<br>下面的两段代码作用是相同的：<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#encoding=utf-8</span></div><div class="line"><span class="keyword">import</span> time</div><div class="line"> </div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">foo</span><span class="params">()</span>:</span></div><div class="line">    <span class="keyword">print</span> <span class="string">'in foo()'</span></div><div class="line"> </div><div class="line"><span class="comment"># 定义一个计时器，传入一个，并返回另一个附加了计时功能的方法</span></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">timeit</span><span class="params">(func)</span>:</span></div><div class="line">     </div><div class="line">    <span class="comment"># 定义一个内嵌的包装函数，给传入的函数加上计时功能的包装</span></div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">wrapper</span><span class="params">()</span>:</span></div><div class="line">        start = time.clock()</div><div class="line">        func()</div><div class="line">        end =time.clock()</div><div class="line">        <span class="keyword">print</span> <span class="string">'used:'</span>, end - start</div><div class="line">     </div><div class="line">    <span class="comment"># 将包装后的函数返回</span></div><div class="line">    <span class="keyword">return</span> wrapper</div><div class="line"> </div><div class="line">foo = timeit(foo)</div><div class="line">foo()</div></pre></td></tr></table></figure></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> time</div><div class="line"> </div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">timeit</span><span class="params">(func)</span>:</span></div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">wrapper</span><span class="params">()</span>:</span></div><div class="line">        start = time.clock()</div><div class="line">        func()</div><div class="line">        end =time.clock()</div><div class="line">        <span class="keyword">print</span> <span class="string">'used:'</span>, end - start</div><div class="line">    <span class="keyword">return</span> wrapper</div><div class="line"> </div><div class="line"><span class="meta">@timeit</span></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">foo</span><span class="params">()</span>:</span></div><div class="line">    <span class="keyword">print</span> <span class="string">'in foo()'</span></div><div class="line"> </div><div class="line">foo()</div></pre></td></tr></table></figure>
+<p>重点关注第11行的@timeit，在定义上加上这一行与另外写foo = timeit(foo)完全等价，没有另外的黑魔法。</p>
+<h3 id="2-装饰器的执行时机"><a href="#2-装饰器的执行时机" class="headerlink" title="2.装饰器的执行时机"></a>2.装饰器的执行时机</h3><p>在定义了装饰器后，装饰函数的动作是在什么时候执行的也需要清除，是否每次执行函数的时候都会包装一下？可以看下下面这段代码：<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># encoding: utf-8</span></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">decorator</span><span class="params">(foo)</span>:</span></div><div class="line">    <span class="keyword">print</span> <span class="string">"this is the decorator"</span></div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">wrap</span><span class="params">(*arg)</span>:</span></div><div class="line">        <span class="keyword">print</span> <span class="string">"before foo "</span></div><div class="line">        foo(*arg)</div><div class="line">        <span class="keyword">print</span> <span class="string">"after foo"</span></div><div class="line"></div><div class="line">    <span class="keyword">return</span> wrap</div><div class="line"><span class="meta">@decorator</span></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">foo</span><span class="params">(b, a = [])</span>:</span></div><div class="line">    a.append(b)</div><div class="line">    <span class="keyword">print</span> a</div><div class="line">    <span class="keyword">return</span> a</div><div class="line"></div><div class="line">r1 = foo(<span class="number">1</span>)</div><div class="line"></div><div class="line"><span class="meta">@decorator</span></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">foo2</span><span class="params">(*args)</span>:</span></div><div class="line">    a = []</div><div class="line">    <span class="keyword">for</span> item <span class="keyword">in</span> args:</div><div class="line">        a.append(item)</div><div class="line">    <span class="keyword">print</span> a</div><div class="line">    <span class="keyword">return</span> a</div><div class="line"></div><div class="line">r2 = foo2([<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>])</div><div class="line">r1 = foo(<span class="number">2</span>)</div></pre></td></tr></table></figure></p>
+<p>输出结果：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">this is the decorator</div><div class="line">before foo</div><div class="line">[1]</div><div class="line">after foo</div><div class="line">this is the decorator</div><div class="line">before foo</div><div class="line">[[1, 2, 3]]</div><div class="line">after foo</div><div class="line">before foo</div><div class="line">[1, 1]</div><div class="line">after foo</div></pre></td></tr></table></figure></p>
+<p>可以看到装饰器是在函数定义的时候执行的，且每个被装饰的函数都执行且只执行一次装饰器。</p>
+<h3 id="3-python-内置的装饰器"><a href="#3-python-内置的装饰器" class="headerlink" title="3.python 内置的装饰器"></a>3.python 内置的装饰器</h3><h4 id="3-1-staticmethod、classmethod、property"><a href="#3-1-staticmethod、classmethod、property" class="headerlink" title="3.1 staticmethod、classmethod、property"></a>3.1 staticmethod、classmethod、property</h4><p>python中内置了3个装饰器：staticmethod、classmethod、property，作用分别是把类中定义的方法变成类的静态方法、类方法和类属性。下面是一个实例：<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">Rabbit</span><span class="params">(object)</span>:</span></div><div class="line">     </div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span><span class="params">(self, name)</span>:</span></div><div class="line">        self._name = name</div><div class="line">     </div><div class="line"><span class="meta">    @staticmethod</span></div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">newRabbit</span><span class="params">(name)</span>:</span></div><div class="line">        <span class="keyword">return</span> Rabbit(name)</div><div class="line">     </div><div class="line"><span class="meta">    @classmethod</span></div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">newRabbit2</span><span class="params">(cls)</span>:</span></div><div class="line">        <span class="keyword">return</span> Rabbit(<span class="string">''</span>)</div><div class="line">     </div><div class="line"><span class="meta">    @property</span></div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">name</span><span class="params">(self)</span>:</span></div><div class="line">        <span class="keyword">return</span> self._name</div></pre></td></tr></table></figure></p>
+<p>此外，functools模块中有两个很有用的装饰器。</p>
+<h4 id="3-2-wraps-wrapped-assigned-updated"><a href="#3-2-wraps-wrapped-assigned-updated" class="headerlink" title="3.2 wraps(wrapped[, assigned][, updated]):"></a>3.2 wraps(wrapped[, assigned][, updated]):</h4><p>:   函数是有几个特殊属性比如函数名，在被装饰后，上例中的函数名foo会变成包装函数的名字wrapper，如果你希望使用反射，可能会导致意外的结果。这个装饰器可以解决这个问题，它能将装饰过的函数的特殊属性保留。</p>
+<p>下面是实例：<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> time</div><div class="line"><span class="keyword">import</span> functools</div><div class="line"> </div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">timeit</span><span class="params">(func)</span>:</span></div><div class="line"><span class="meta">    @functools.wraps(func)</span></div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">wrapper</span><span class="params">()</span>:</span></div><div class="line">        start = time.clock()</div><div class="line">        func()</div><div class="line">        end =time.clock()</div><div class="line">        <span class="keyword">print</span> <span class="string">'used:'</span>, end - start</div><div class="line">    <span class="keyword">return</span> wrapper</div><div class="line"> </div><div class="line"><span class="meta">@timeit</span></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">foo</span><span class="params">()</span>:</span></div><div class="line">    <span class="keyword">print</span> <span class="string">'in foo()'</span></div><div class="line"> </div><div class="line">foo()</div><div class="line"><span class="keyword">print</span> foo.__name__</div></pre></td></tr></table></figure></p>
+<p>这样foo的<strong>name</strong>属性就还是’foo’</p>
+<h4 id="3-3-total-ordering-cls"><a href="#3-3-total-ordering-cls" class="headerlink" title="3.3 total_ordering(cls):"></a>3.3 total_ordering(cls):</h4><p>:   这个装饰器在特定的场合有一定用处，但是它是在Python 2.7后新增的。它的作用是为实现了至少<strong>lt</strong>、<strong>le</strong>、<strong>gt</strong>、<strong>ge</strong>其中一个的类加上其他的比较方法，这是一个类装饰器。</p>
+<p>例子：<br>下面的这段代码是不加这个装饰器的时候的python自带扩展比较的效果：<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#!/usr/bin/env python</span></div><div class="line"><span class="comment"># encoding: utf-8</span></div><div class="line"></div><div class="line"></div><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">test</span>:</span></div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span><span class="params">(self, var)</span>:</span></div><div class="line">        self.var = var</div><div class="line"></div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__lt__</span><span class="params">(self, other)</span>:</span></div><div class="line">        <span class="keyword">return</span> self.var &gt; other.var</div><div class="line"></div><div class="line"></div><div class="line">t1 = test(<span class="number">2</span>)</div><div class="line">t2 = test(<span class="number">3</span>)</div><div class="line"></div><div class="line"></div><div class="line"><span class="keyword">print</span> t1 &lt; t2</div><div class="line"><span class="keyword">print</span> t1 &gt; t2</div><div class="line"><span class="keyword">print</span> t1 &lt;= t2</div><div class="line"><span class="keyword">print</span> t1 &gt;= t2</div></pre></td></tr></table></figure></p>
+<p>输出是：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">False</div><div class="line">True</div><div class="line">True</div><div class="line">False</div></pre></td></tr></table></figure></p>
+<p>但是实际是定义的大于的时候小于才成立，而这里的&lt;=和期望的值是不符的，说明python只能自己重新定义gt，没有重新定义le和ge。<br>下面加上total_ordering:<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> functools</div><div class="line"></div><div class="line"><span class="meta">@functools.total_ordering</span></div><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">test</span>:</span></div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span><span class="params">(self, var)</span>:</span></div><div class="line">        self.var = var</div><div class="line"></div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__lt__</span><span class="params">(self, other)</span>:</span></div><div class="line">        <span class="keyword">return</span> self.var &gt; other.var</div><div class="line"></div><div class="line"></div><div class="line">t1 = test(<span class="number">2</span>)</div><div class="line">t2 = test(<span class="number">3</span>)</div><div class="line"></div><div class="line"></div><div class="line"><span class="keyword">print</span> t1 &lt; t2</div><div class="line"><span class="keyword">print</span> t1 &gt; t2</div><div class="line"><span class="keyword">print</span> t1 &lt;= t2</div><div class="line"><span class="keyword">print</span> t1 &gt;= t2</div></pre></td></tr></table></figure></p>
+<p>输出是：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">False</div><div class="line">True</div><div class="line">False</div><div class="line">True</div></pre></td></tr></table></figure></p>
+<p>total_ordering自己把le和ge也用自定义的lt扩展了。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;装饰器&lt;/strong&gt;是一个很著名的设计模式，经常被用于有切面需求的场景，较为经典的有插入日志、性能测试、事务处理等。装饰器是解决这类问题的绝佳设计，有了装饰器，我们就可以抽离出大量函数中与函数功能本身无关的雷同代码并继续重用。概
+    
+    </summary>
+    
+      <category term="Python" scheme="http://yoursite.com/categories/Python/"/>
+    
+    
+      <category term="原创" scheme="http://yoursite.com/tags/%E5%8E%9F%E5%88%9B/"/>
+    
+      <category term="装饰器" scheme="http://yoursite.com/tags/%E8%A3%85%E9%A5%B0%E5%99%A8/"/>
+    
+      <category term="原理" scheme="http://yoursite.com/tags/%E5%8E%9F%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Django 1.8 环境下 xadmin 调试部署</title>
+    <link href="http://yoursite.com/2016/08/04/Django-1-8-%E7%8E%AF%E5%A2%83%E4%B8%8B-xadmin-%E8%B0%83%E8%AF%95%E9%83%A8%E7%BD%B2/"/>
+    <id>http://yoursite.com/2016/08/04/Django-1-8-环境下-xadmin-调试部署/</id>
+    <published>2016-08-04T08:31:41.000Z</published>
+    <updated>2016-08-04T10:35:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Django是一个功能很强大的web框架，因为发展的很快，所以相近的版本间很多函数不同是很正常的事情。这是好事，但是给Django的第三方开发者带来了很大的负担，需要同步更新自己的代码，这确实是很麻烦…不管怎么样，现在如果想在Django 1.8 环境上部署git上的原版<a href="https://github.com/sshwsfc/django-xadmin" target="_blank" rel="external">xadmin</a>还是要修改不少地方的，也可以尝试安装1.8的branch，不过可能也会有问题。下面就Django 1.8 版本下部署xadmin做了一些说明。</p>
+<p>部署的大致步骤是：</p>
+<h4 id="1，pip-install-django-xadmin-安装"><a href="#1，pip-install-django-xadmin-安装" class="headerlink" title="1，pip install django-xadmin 安装"></a>1，pip install django-xadmin 安装</h4><h4 id="2，修改install-app中的代码如下"><a href="#2，修改install-app中的代码如下" class="headerlink" title="2，修改install_app中的代码如下:"></a>2，修改install_app中的代码如下:</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">INSTALLED_APPS = (</div><div class="line">&apos;django.contrib.auth&apos;,</div><div class="line">&apos;django.contrib.contenttypes&apos;,</div><div class="line">&apos;django.contrib.sessions&apos;,</div><div class="line">&apos;django.contrib.sites&apos;,</div><div class="line">&apos;django.contrib.messages&apos;,</div><div class="line">&apos;django.contrib.staticfiles&apos;,</div><div class="line">#&apos;django.contrib.admin&apos;, # 这个可以去掉</div><div class="line"></div><div class="line">&apos;xadmin&apos;,</div><div class="line">&apos;crispy_forms&apos;,</div><div class="line"># &apos;reversion&apos;, # 需要pip install django-reversion</div><div class="line">)</div></pre></td></tr></table></figure>
+<h4 id="3，在urls-py里添加"><a href="#3，在urls-py里添加" class="headerlink" title="3，在urls.py里添加:"></a>3，在urls.py里添加:</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">import xadmin</div><div class="line">xadmin.autodiscover()</div></pre></td></tr></table></figure>
+<p>这里有个注意事项，你需要把admin的配置去掉，这俩admin可能存在冲突，会导致出错。</p>
+<h4 id="4，修改urlpatterns配置如下："><a href="#4，修改urlpatterns配置如下：" class="headerlink" title="4，修改urlpatterns配置如下："></a>4，修改urlpatterns配置如下：</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">urlpatterns = patterns(&apos;&apos;,</div><div class="line"></div><div class="line">url(r&apos;^xadmin/&apos;, include(xadmin.site.urls), name=&apos;xadmin&apos;),</div><div class="line"></div><div class="line">#...</div><div class="line">)</div></pre></td></tr></table></figure>
+<h4 id="5，如果对admin进行了简单的配置-你需要做的就是替换到自定义Admin的继承为-object-，替换admin-site-register为xadmin-site-register。"><a href="#5，如果对admin进行了简单的配置-你需要做的就是替换到自定义Admin的继承为-object-，替换admin-site-register为xadmin-site-register。" class="headerlink" title="5，如果对admin进行了简单的配置, 你需要做的就是替换到自定义Admin的继承为 object ，替换admin.site.register为xadmin.site.register。"></a>5，如果对admin进行了简单的配置, 你需要做的就是替换到自定义Admin的继承为 object ，替换admin.site.register为xadmin.site.register。</h4><p>可以参考<a href="https://github.com/sshwsfc/django-xadmin/blob/master/demo_app/app/adminx.py" target="_blank" rel="external">https://github.com/sshwsfc/django-xadmin/blob/master/demo_app/app/adminx.py</a></p>
+<p>一个简单的示例：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">#coding:utf-8</div><div class="line">from django.contrib import admin</div><div class="line">from django.core import urlresolvers</div><div class="line">from .models import Post</div><div class="line"></div><div class="line">#class PostAdmin(admin.ModelAdmin):</div><div class="line">class PostAdmin(object): # 一处替换</div><div class="line">search_fields = (&apos;title&apos;, &apos;alias&apos;)</div><div class="line">fields = (&apos;content&apos;, &apos;summary&apos;, &apos;title&apos;, &apos;alias&apos;, &apos;tags&apos;, &apos;status&apos;,</div><div class="line">&apos;category&apos;, &apos;is_top&apos;, &apos;is_old&apos;, &apos;pub_time&apos;)</div><div class="line">list_display = (&apos;preview&apos;, &apos;title&apos;, &apos;category&apos;, &apos;is_top&apos;, &apos;pub_time&apos;)</div><div class="line">ordering = (&apos;-pub_time&apos;, )</div><div class="line">save_on_top = True</div><div class="line"></div><div class="line">def preview(self, obj):</div><div class="line"># 第二处替换： &apos;xadmin:blog_post_change&apos;</div><div class="line">#url_edit = urlresolvers.reverse(&apos;admin:blog_post_change&apos;, args=(obj.id,))</div><div class="line">url_edit = urlresolvers.reverse(&apos;xadmin:blog_post_change&apos;, args=(obj.id,))</div><div class="line">return u&apos;&apos;&apos;</div><div class="line">&lt;span&gt;&lt;a href=&quot;/%s.html&quot; target=&quot;_blank&quot;&gt;预览&lt;/a&gt;&lt;/span&gt;</div><div class="line">&lt;span&gt;&lt;a href=&quot;%s&quot; target=&quot;_blank&quot;&gt;编辑&lt;/a&gt;&lt;/span&gt;</div><div class="line">&apos;&apos;&apos; % (obj.alias, url_edit)</div><div class="line"></div><div class="line">preview.short_description = u&apos;操作&apos;</div><div class="line">preview.allow_tags = True</div><div class="line"></div><div class="line">#admin.site.register(Post, PostAdmin)</div><div class="line"># 第三处替换</div><div class="line">xadmin.site.register(Post, PostAdmin)</div></pre></td></tr></table></figure>
+<p>这样走下来就是部署完了，如果是旧版的Django（低于1.6吧）应该可以访问xadmin了，但是如果是1.7版本或以后的可能还有别的问题，下面是需要做的修改，</p>
+<p>首先是改下版本的范围</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">xadmin/models.py</div><div class="line">if 4 &lt; django.VERSION[1] &lt; 7:</div><div class="line">AUTH_USER_MODEL = django.contrib.auth.get_user_model()</div><div class="line">else:</div><div class="line">AUTH_USER_MODEL = getattr(settings, &apos;AUTH_USER_MODEL&apos;, &apos;auth.User&apos;)</div></pre></td></tr></table></figure>
+<p>否则启动不了</p>
+<p>改了可以启动了，但是就会开始各种报错，原因是很多原先用的Django组件都过时了，需要逐一处理，如果用sed批量替换需把条件设置严格一点，以免误换了不想关的地方又麻烦</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">from django.db.models.related import RelatedObject</div><div class="line">from django.db.models.fields.related import ForeignObjectRel</div></pre></td></tr></table></figure>
+<p>文件中用到RelatedObject 都要改成ForeignObjectRel，下面transaction的commit_on_success也过时了，改成atomic</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">@transaction.commit_on_success</div><div class="line">@transaction.atomic</div></pre></td></tr></table></figure>
+<p>formtools 和django-contrib-comments安装</p>
+<p>将<a href="https://github.com/django/django-formtools" target="_blank" rel="external">https://github.com/django/django-formtools</a> 这里的formtools文件夹拷贝到/usr/local/python2.7.3/lib/python2.7/site-packages/Django-1.8.3-py2.7.egg/django/contrib/（也就是contrib的目录下）即可</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">pip install django-contrib-comments</div><div class="line">and use latest code</div><div class="line"></div><div class="line">from django.contrib.comments.models import Comment # old</div><div class="line">from django_comments.models import Comment # new</div></pre></td></tr></table></figure>
+<p>opts的module_name属性也过时了，需要修改</p>
+<p>‘Options’ object has no attribute ‘module_name’<br>改成model_name<br>如果更改了代码，错误没有变化，需要重启一下服务器（我的是部署在Nginx+uwsgi上，所以就是重启Nginx+uwsgi，可以写成脚本，每次重启直接执行一下，1s就ok），终于可以看到登陆界面了（可能还有别的问题，可以参考上面的办法解决）</p>
+<p>登陆的时候由于要检查cookie，这里又会报错，需要把相关的test注释掉</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">#self.check_for_test_cookie()</div></pre></td></tr></table></figure>
+<p>此外get_query_set在django 1.8中做了如下改动</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">Rename &quot;get_query_set&quot; for &quot;get_queryset&quot; #307</div><div class="line"></div><div class="line">#(isinstance(field, models.related.RelatedObject) and改成如下</div><div class="line"></div><div class="line">isinstance(field, models.fields.related.ForeignObjectRel) and</div><div class="line"></div><div class="line">/usr/local/python2.7.3/lib/python2.7/site-packages/xadmin/views/list.py in get_context, line 375</div><div class="line"></div><div class="line">self.get_model_method_fields()改成</div><div class="line"></div><div class="line">tuple(self.get_model_method_fields()))</div></pre></td></tr></table></figure>
+<p>此外可能还有个别的问题，也是上面的那几类问题了，我的网站简单，当这些都解决后，xadmin界面就出来了。</p>
+<p><img src="http://chuantu.biz/t5/25/1470305890x3738746547.png" alt="xadmin登录界面"></p>
+<p>补充问题：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">Remove widget.is_hidden=True for Django 1.7</div><div class="line"></div><div class="line">/usr/local/python2.7.3/lib/python2.7/site-packages/xadmin/plugins/quickform.py 中的</div><div class="line"></div><div class="line">#self.is_hidden = widget.is_hidden 需要注释掉</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Django是一个功能很强大的web框架，因为发展的很快，所以相近的版本间很多函数不同是很正常的事情。这是好事，但是给Django的第三方开发者带来了很大的负担，需要同步更新自己的代码，这确实是很麻烦…不管怎么样，现在如果想在Django 1.8 环境上部署git上的原版&lt;
+    
+    </summary>
+    
+      <category term="Python" scheme="http://yoursite.com/categories/Python/"/>
+    
+    
+      <category term="原创" scheme="http://yoursite.com/tags/%E5%8E%9F%E5%88%9B/"/>
+    
+      <category term="Django" scheme="http://yoursite.com/tags/Django/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【MySQL】内存太小，mysqld_safe启动时报错“/usr/bin/mysqld_safe: line 166: 8059 Killed”的解决办法</title>
+    <link href="http://yoursite.com/2016/08/04/%E3%80%90MySQL%E3%80%91%E5%86%85%E5%AD%98%E5%A4%AA%E5%B0%8F%EF%BC%8Cmysqld-safe%E5%90%AF%E5%8A%A8%E6%97%B6%E6%8A%A5%E9%94%99%E2%80%9C-usr-bin-mysqld-safe-line-166-8059-Killed%E2%80%9D%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/"/>
+    <id>http://yoursite.com/2016/08/04/【MySQL】内存太小，mysqld-safe启动时报错“-usr-bin-mysqld-safe-line-166-8059-Killed”的解决办法/</id>
+    <published>2016-08-04T08:31:29.000Z</published>
+    <updated>2016-08-04T10:38:09.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天早上服务器出了点问题，MySQL down了，以往的问题log都有提示，今天没有提示，如下</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div></pre></td><td class="code"><pre><div class="line">151120 11:58:15 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql</div><div class="line">2363 2015-11-20 11:58:15 0 [Note] /usr/sbin/mysqld (mysqld 5.6.27-log) starting as process 4834 ...</div><div class="line">2364 2015-11-20 11:58:15 4834 [Warning] option &apos;innodb-buffer-pool-size&apos;: signed value 2097152 adjusted to 5242880</div><div class="line">2365 2015-11-20 11:58:15 4834 [Note] Plugin &apos;FEDERATED&apos; is disabled.</div><div class="line">2366 2015-11-20 11:58:15 4834 [Note] InnoDB: Using atomics to ref count buffer pool pages</div><div class="line">2367 2015-11-20 11:58:15 4834 [Note] InnoDB: The InnoDB memory heap is disabled</div><div class="line">2368 2015-11-20 11:58:15 4834 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins</div><div class="line">2369 2015-11-20 11:58:15 4834 [Note] InnoDB: Memory barrier is not used</div><div class="line">2370 2015-11-20 11:58:15 4834 [Note] InnoDB: Compressed tables use zlib 1.2.3</div><div class="line">2371 2015-11-20 11:58:15 4834 [Note] InnoDB: Using Linux native AIO</div><div class="line">2372 2015-11-20 11:58:15 4834 [Note] InnoDB: Using CPU crc32 instructions</div><div class="line">2373 2015-11-20 11:58:15 4834 [Note] InnoDB: Initializing buffer pool, size = 5.0M</div><div class="line">2374 2015-11-20 11:58:15 4834 [Note] InnoDB: Completed initialization of buffer pool</div><div class="line">2375 2015-11-20 11:58:16 4834 [Note] InnoDB: Highest supported file format is Barracuda.</div><div class="line">2376 151120 11:58:18 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended</div><div class="line">2377 151120 12:05:47 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql</div><div class="line">2378 151120 12:05:47 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended</div><div class="line">2379 151120 12:08:17 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql</div><div class="line">2380 151120 12:08:18 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended</div><div class="line">2381 151120 12:10:01 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql</div><div class="line">2382 151120 12:10:02 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended</div><div class="line">2383 151120 12:10:39 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql</div><div class="line">2384 151120 12:10:40 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended</div><div class="line">2385 151120 12:10:49 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql</div><div class="line">2386 151120 12:10:49 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended</div><div class="line"></div><div class="line">[root@iZ94y2i49cgZ ~]# mysqld_safe</div><div class="line">151120 12:23:21 mysqld_safe Logging to &apos;/var/log/mysqld.log&apos;.</div><div class="line">151120 12:23:21 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql</div><div class="line">/usr/bin/mysqld_safe: line 166: 8059 Killed nohup /usr/sbin/mysqld --basedir=/usr --datadir=/var/lib/mysql --plugin-dir=/usr/lib64/mysql/plugin --user=mysql --log-error=/var/log/mysqld.log --pid-file=/var/run/mysqld/mysqld.pid --socket=/var/lib/mysql/mysql.sock &lt; /dev/null &gt;&gt; /var/log/mysqld.log 2&gt;&amp;1</div><div class="line">151120 12:23:21 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended</div></pre></td></tr></table></figure>
+<p>网上查了下，一般大家碰到的问题在/var/log/mysqld.log中有提示，竟然几乎没有和我一样问题的</p>
+<p>唯一碰到个<a href="http://www.itpub.net/forum.php?mod=viewthread&amp;tid=1810586&amp;highlight=" target="_blank" rel="external">一样的帖子</a> 也是稀里糊涂解决了，他也没讲清楚，不过他提到了虚拟机的内存问题，就在前几天我的数据库刚刚因为占内存太多当机了，所以我觉得就是内存的问题，但是当时我就设置了innodb_buffer_pool_size=5M 已经改的足够小了，还是起不来，没办法，继续折腾吧，后来看到一个详细的配置的方法，<a href="http://serverfault.com/questions/565128/mysql-5-6-on-centos-6-silently-fails-to-start" target="_blank" rel="external">原文</a>，如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">key_buffer=16K</div><div class="line">table_open_cache=4</div><div class="line">query_cache_limit=256K</div><div class="line">query_cache_size=4M</div><div class="line">max_allowed_packet=1M</div><div class="line">sort_buffer_size=64K</div><div class="line">read_buffer_size=256K</div><div class="line">thread_stack=64K</div><div class="line">innodb_buffer_pool_size = 56M</div></pre></td></tr></table></figure>
+<p>加入到my.cnf中，终于起来了</p>
+<p>原文里还说道“It was definitely a memory issue. This became evident once I looked in /var/log/messages. I was trying to run recent versions of Nginx, PHP-FPM, and MySQL, and the default configurations for all 3 of these together were too much for my little droplet that had only 512 MB of memory and no swap space.I tweaked my /etc/my.cnf…”</p>
+<p>果然还是服务器内存太小的原因，只能说穷人伤不起，只能在配置上挖掘服务器更多的潜力。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天早上服务器出了点问题，MySQL down了，以往的问题log都有提示，今天没有提示，如下&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;
+    
+    </summary>
+    
+      <category term="方法" scheme="http://yoursite.com/categories/%E6%96%B9%E6%B3%95/"/>
+    
+    
+      <category term="方法" scheme="http://yoursite.com/tags/%E6%96%B9%E6%B3%95/"/>
+    
+      <category term="原创" scheme="http://yoursite.com/tags/%E5%8E%9F%E5%88%9B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>笔记：Django 开发中的重启</title>
+    <link href="http://yoursite.com/2016/08/04/%E7%AC%94%E8%AE%B0%EF%BC%9ADjango-%E5%BC%80%E5%8F%91%E4%B8%AD%E7%9A%84%E9%87%8D%E5%90%AF/"/>
+    <id>http://yoursite.com/2016/08/04/笔记：Django-开发中的重启/</id>
+    <published>2016-08-04T08:31:10.000Z</published>
+    <updated>2016-08-04T10:18:07.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><div id="preview-column" class="pull-right"></div></p>
+<p><div id="wmd-panel-preview" class="wmd-panel-preview preview-container"></div></p>
+<p><div id="wmd-preview" class="wmd-preview" data-medium-element="true"></div></p>
+<p></p><p data-anchor-id="2gle">在Django开发中，修改模板，修改模型，修改css等，修改无处不在，但是经常会碰到修改了没有生效的情况，其实是需要重启，以便重新加载这些源文件。很多时候BUG其实已经改好了，你差的只是一步重启，在这类问题上我浪费了一些时间，现在记录一下。 <br>服务器的部署环境是普通的Nginx+uWSGI。</p><p></p>
+<p><div class="md-section-divider">&nbsp;<strong>重启uWSGI</strong></div></p>
+<p></p><p data-anchor-id="ctyn">修改了view函数或者模型结构后，需要重启才能生效</p><p></p>
+<p><div class="md-section-divider">&nbsp;<strong>重启Nginx</strong></div></p>
+<p></p><p data-anchor-id="37rv">修改了css文件、图片等static文件需要重新collectstatic一下，然后重启Nginx才能生效</p><p></p>
+<p><div class="md-section-divider">&nbsp;<strong>重启shell</strong></div></p>
+<p></p><p data-anchor-id="8c8l">在</p><p></p>
+<pre data-anchor-id="2u8e"><code>python manage.py shell
+</code></pre>
+<p data-anchor-id="2yuq">中测试时，如果导入了模型，那么在修改模型后，首先要用migrate同步一下数据库，然后需要重新进一次shell才能正常使用模型</p>
+<div class="md-section-divider">&nbsp;<strong>重启celery worker</strong></div>
+<p data-anchor-id="aj2w">修改了tasks.py文件或者其他worker任务的源文件后，需要重新启动一次celery worker <br>推荐用supervisor监控worker，这样重启就是</p>
+<pre data-anchor-id="stui"><code>supervisorctl reload
+</code></pre>
+<p data-anchor-id="zyyf">比较方便，并且在监控下，worker如果死掉，能自动重启</p>
+
+<div class="remark-icons">&nbsp;</div>
+
+
+<pre data-anchor-id="2gle">&nbsp;</pre>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;div id=&quot;preview-column&quot; class=&quot;pull-right&quot;&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;&lt;div id=&quot;wmd-panel-preview&quot; class=&quot;wmd-panel-preview preview-container&quot;&gt;&lt;/div&gt;&lt;
+    
+    </summary>
+    
+      <category term="Python" scheme="http://yoursite.com/categories/Python/"/>
+    
+    
+      <category term="原创" scheme="http://yoursite.com/tags/%E5%8E%9F%E5%88%9B/"/>
+    
+      <category term="Django" scheme="http://yoursite.com/tags/Django/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Celery】Windows 下 backend=&#39;amqp&#39; 配置无效的解决方法</title>
+    <link href="http://yoursite.com/2016/08/04/%E3%80%90Celery%E3%80%91Windows-%E4%B8%8B-backend-amqp-%E9%85%8D%E7%BD%AE%E6%97%A0%E6%95%88%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
+    <id>http://yoursite.com/2016/08/04/【Celery】Windows-下-backend-amqp-配置无效的解决方法/</id>
+    <published>2016-08-04T08:30:54.000Z</published>
+    <updated>2016-08-04T10:40:44.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近在Windows下用Celery的时候，碰到个问题：</p>
+<p>app = Celery(‘tasks’, backend = ‘amqp’, broker=’amqp://guest@localhost//‘)</p>
+<p>这样建立C对象后，backend的配置“未生效”——不能追溯任务的结果，但在启动的状态和检查status时又显示“生效了”，怪哉。</p>
+<p>tasks.py如下</p>
+ <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">from celery import Celery</div><div class="line">app = Celery(&apos;tasks&apos;, backend = &apos;amqp&apos;, broker=&apos;amqp://guest@localhost//&apos;)</div><div class="line"></div><div class="line">@app.task</div><div class="line">def add(x, y):</div><div class="line">return x + y</div></pre></td></tr></table></figure>
+<p>启动界面如下：</p>
+ <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">-------------- celery@Lenovo-PC v3.1.18 (Cipater)</div><div class="line">---- **** -----</div><div class="line">--- * ***  * -- Windows-8-6.2.9200</div><div class="line">-- * - **** ---</div><div class="line">- ** ---------- [config]</div><div class="line">- ** ---------- .&gt; app:         tasks:0x34025f8</div><div class="line">- ** ---------- .&gt; transport:   amqp://guest:**@localhost:5672//</div><div class="line">- ** ---------- .&gt; results:     amqp</div><div class="line">- *** --- * --- .&gt; concurrency: 4 (prefork)</div><div class="line">-- ******* ----</div><div class="line">--- ***** ----- [queues]</div><div class="line"> -------------- .&gt; celery           exchange=celery(direct) key=celery</div></pre></td></tr></table></figure>
+<p>在python shell中做如下操作</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">&gt;&gt;&gt; res.backend</div><div class="line">&lt;celery.backends.amqp.AMQPBackend object at 0x000000000349E438&gt;</div><div class="line">&gt;&gt;&gt; res = tasks.add.delay(2,2)</div><div class="line">&gt;&gt;&gt; res.ready()</div><div class="line">False</div><div class="line">&gt;&gt;&gt; res.backend</div><div class="line">&lt;celery.backends.amqp.AMQPBackend object at 0x000000000349E438&gt;</div><div class="line">&gt;&gt;&gt; res.ready()</div><div class="line">False</div><div class="line">&gt;&gt;&gt; res.state</div><div class="line">&apos;PENDING&apos;</div><div class="line">&gt;&gt;&gt; res.state</div><div class="line">&apos;PENDING&apos;</div></pre></td></tr></table></figure>
+<p>不能获取到结果</p>
+<p> 通过尝试，在tasks.py中app创建后面加上</p>
+<p>app.conf.CELERY_RESULT_BACKEND = ‘amqp’</p>
+<p>手动配置BACKEND后，再次尝试，可以解决问题。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">&gt;&gt;&gt; res = tasks.add.delay(2,2)</div><div class="line">&gt;&gt;&gt; res.backend</div><div class="line">&lt;celery.backends.amqp.AMQPBackend object at 0x000000000349E438&gt;</div><div class="line">&gt;&gt;&gt; res.get()</div><div class="line">4</div><div class="line">&gt;&gt;&gt; res.ready()</div><div class="line">True</div></pre></td></tr></table></figure>
+<p>但是问题的原因是啥，没搞懂，今天是国庆假期前一天，晚上没啥事，搜了一下，百度是没戏了，都是些互相抄的基础教程，试了下google，搜到这么一个页面，<a href="https://github.com/celery/celery/issues/897" target="_blank" rel="external">https://github.com/celery/celery/issues/897</a>  里面的问题就是我的问题，看了一下，发现两个解决方法，一个和我的一样，一个是在celery启动的时候后面加–pool=solo，对比了一下发现加了–pool=solo后启动页面配置有变动：</p>
+<p>Concurrency 分别是prefork和solo</p>
+<p>查了Celery手册，</p>
+<p>celery.concurrency.solo</p>
+<p>Single-threaded pool implementation.</p>
+<p><a href="http://celery.readthedocs.org/en/latest/_modules/celery/concurrency/solo.html#TaskPool" target="_blank" rel="external">原文</a>  </p>
+<p>celery.concurrency.prefork</p>
+<p>Pool implementation using multiprocessing.</p>
+<p><a href="http://celery.readthedocs.org/en/latest/_modules/celery/concurrency/prefork.html#TaskPool" target="_blank" rel="external">原文</a></p>
+<p>综合一下所得信息：</p>
+<p>1，linux下没有问题，windows下才会出现</p>
+<p>2，单线程的时候backend可以获取到结果，多进程的时候获取不到</p>
+<p>3，多进程的时候可以通过app.conf.CELERY_RESULT_BACKEND配置，使得结果可以获取到</p>
+<p>感觉像是两种配置方法不同，受到多进程的影响了，结果没有顺利到达backend。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近在Windows下用Celery的时候，碰到个问题：&lt;/p&gt;
+&lt;p&gt;app = Celery(‘tasks’, backend = ‘amqp’, broker=’amqp://guest@localhost//‘)&lt;/p&gt;
+&lt;p&gt;这样建立C对象后，backend的配置
+    
+    </summary>
+    
+      <category term="Python" scheme="http://yoursite.com/categories/Python/"/>
+    
+    
+      <category term="原创" scheme="http://yoursite.com/tags/%E5%8E%9F%E5%88%9B/"/>
+    
+      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
+    
+      <category term="Celery" scheme="http://yoursite.com/tags/Celery/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python 多线程模块Threading和Thread</title>
+    <link href="http://yoursite.com/2016/08/04/Python-%E5%A4%9A%E7%BA%BF%E7%A8%8B%E6%A8%A1%E5%9D%97Threading%E5%92%8CThread/"/>
+    <id>http://yoursite.com/2016/08/04/Python-多线程模块Threading和Thread/</id>
+    <published>2016-08-04T08:30:08.000Z</published>
+    <updated>2016-08-04T10:55:30.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Python 中的多线程有两种模块实现：Thread和Threading。区别是，Thread 是更老的实现模块，同步原语很少（只有锁），而Threading模块则较多；Thread 实现的线程，主线程结束，所有的线程都会强制结束，没有警告也不会有正常的清理，Threading因为有守护线程的概念，可以确保非守护线程结束后进程才退出。简单来说，就是Threading的同步机制更加完善，下面是两个模块各自的函数对比：</p>
+<p>表1 Thread模块函数和Lock类型锁对象方法</p>
+<p>|函数|描述|</p>
+<p>|—|—|</p>
+<p>|Thread模块函数|-|</p>
+<p>|start_new_thread(function, args[, kwargs])|Start a new thread and return its identifier. The thread executes the function function with the argument list args (which must be a tuple). The optional kwargs argument specifies a dictionary of keyword arguments. When the function returns, the thread silently exits. When the function terminates with an unhandled exception, a stack trace is printed and then the thread exits (but other threads continue to run).|</p>
+<p>|allocate_lock()|Return a new lock object. Methods of locks are described below. The lock is initially unlocked.|</p>
+<p>|exit()|Raise the SystemExit exception. When not caught, this will cause the thread to exit silently.</p>
+<p>|Lock类型锁对象方法|-|</p>
+<p>|acquire([waitflag])|Without the optional argument, this method acquires the lock unconditionally, if necessary waiting until it is released by another thread (only one thread at a time can acquire a lock — that’s their reason for existence). If the integer waitflag argument is present, the action depends on its value: if it is zero, the lock is only acquired if it can be acquired immediately without waiting, while if it is nonzero, the lock is acquired unconditionally as before. The return value is True if the lock is acquired successfully, False if not.</p>
+<p>|locked()|Return the status of the lock: True if it has been acquired by some thread, False if not.</p>
+<p>|release()|Releases the lock. The lock must have been acquired earlier, but not necessarily by the same thread.</p>
+<p>表2 Threading 模块对象和Thread类对象方法</p>
+<p>|函数|描述|</p>
+<p>|—|—|</p>
+<p>|Threading模块对象|-|</p>
+<p>|Thread(group=None, target=None, name=None, args=(), kwargs={})|This constructor should always be called with keyword arguments. Arguments are:<br>group should be None; reserved for future extension when a ThreadGroup class is implemented.<br>target is the callable object to be invoked by the run() method. Defaults to None, meaning nothing is called.<br>name is the thread name. By default, a unique name is constructed of the form “Thread-N” where N is a small decimal number.<br>args is the argument tuple for the target invocation. Defaults to ().<br>kwargs is a dictionary of keyword arguments for the target invocation. Defaults to {}.<br>If the subclass overrides the constructor, it must make sure to invoke the base class constructor (Thread.<strong>init</strong>()) before doing anything else to the thread.</p>
+<p>|同步原语|Lock, RLock, Condition, Event, Semaphore, BoundSemaphore, TImer</p>
+<p>|Thread 类对象方法|-|</p>
+<p>|start()|Start the thread’s activity.</p>
+<p>|run()|Method representing the thread’s activity.<br>You may override this method in a subclass.</p>
+<p>|join([timeout])|Wait until the thread terminates or timeout.</p>
+<p>|getName() , setName()|Get the thread’s name; set the thread’s name; Multiple threads may be given the same name.</p>
+<p>|isAlive()|Return whether the thread is alive.</p>
+<p>|isDaemon(), setDaemon()|A boolean value indicating whether this thread is a daemon thread (True) or not (False). This must be set before start() is called, otherwise RuntimeError is raised. Its initial value is inherited from the creating thread; the main thread is not a daemon thread and therefore all threads created in the main thread default to daemon = False.</p>
+<p>用Thread和Threading实现并行执行打印时间 </p>
+<p>Talk is cheap，下面动手写一下，先是用Thread模块实现2个线程：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">#encoding = utf-8</div><div class="line"></div><div class="line">from time import ctime, sleep</div><div class="line">import thread</div><div class="line"></div><div class="line">loopNum = 2</div><div class="line"></div><div class="line">def loop(loopIndex,nSec, lock):</div><div class="line">    print &apos;Loop %s starts at %s&apos;%(loopIndex, ctime())</div><div class="line">    sleep(nSec)</div><div class="line">    print &apos;Loop %s ends at %s&apos;%(loopIndex, ctime())</div><div class="line">    lock.release()</div><div class="line"></div><div class="line"></div><div class="line">def main():</div><div class="line">    print &quot;Main starts at %s&quot;%ctime()</div><div class="line">    </div><div class="line">    locks = []</div><div class="line">    for i in range(loopNum):</div><div class="line">        lock = thread.allocate_lock()</div><div class="line">        lock.acquire()</div><div class="line">        locks.append(lock)</div><div class="line">    </div><div class="line">    for i in range(loopNum):</div><div class="line">        thread.start_new_thread(loop,(i+1, (i+1)*2, locks[i]))</div><div class="line">#    sleep(6)</div><div class="line">    for i in range(loopNum):</div><div class="line">        while locks[i].locked():</div><div class="line">            pass</div><div class="line">    print &quot;Main ends at %s&quot;%ctime()</div><div class="line">    </div><div class="line">if __name__==&quot;__main__&quot;:</div><div class="line">    main()</div></pre></td></tr></table></figure>
+<p>输出如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">Main starts at Sun Sep 27 10:49:57 2015</div><div class="line">Loop 1 starts at Sun Sep 27 10:49:57 2015</div><div class="line">Loop 2 starts at Sun Sep 27 10:49:57 2015</div><div class="line">Loop 1 ends at Sun Sep 27 10:49:59 2015</div><div class="line">Loop 2 ends at Sun Sep 27 10:50:01 2015</div><div class="line">Main ends at Sun Sep 27 10:50:01 2015</div></pre></td></tr></table></figure>
+<p>可以看到Thread对于同步的实现是很原始的，需要手动控制锁的开关，下面用Threading模块实现同样的功能：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">#encoding = utf-8</div><div class="line"></div><div class="line">import threading</div><div class="line">from time import sleep,ctime</div><div class="line"></div><div class="line">loopNum = 2</div><div class="line"></div><div class="line">class MyThread(threading.Thread):</div><div class="line">    def __init__(self, func, args, name=&apos;&apos;):</div><div class="line">        threading.Thread.__init__(self)</div><div class="line">        self.func = func</div><div class="line">        self.args = args</div><div class="line">        self.name = name</div><div class="line">    </div><div class="line">    def run(self):</div><div class="line">        apply(self.func, self.args)</div><div class="line">    </div><div class="line"></div><div class="line">def loop(loopIndex, nSec):</div><div class="line">    print &apos;Loop %s starts at %s&apos;%(loopIndex, ctime())</div><div class="line">    sleep(nSec)</div><div class="line">    print &apos;Loop %s ends at %s&apos;%(loopIndex, ctime())  </div><div class="line">    </div><div class="line">def main():</div><div class="line">    print &quot;Main starts at %s&quot;%ctime()</div><div class="line">    Threads = []</div><div class="line">        </div><div class="line">    for i in range(loopNum):</div><div class="line">        t = MyThread(loop, (i+1,(i+1)*2), loop.__name__)</div><div class="line">        Threads.append(t)</div><div class="line">    </div><div class="line">    </div><div class="line">    for i in range(loopNum):</div><div class="line">        Threads[i].start()</div><div class="line">    </div><div class="line">    for i in range(loopNum):</div><div class="line">        Threads[i].join()</div><div class="line">        </div><div class="line">    print &quot;Main ends at %s&quot;%ctime()</div><div class="line">    </div><div class="line">if __name__==&quot;__main__&quot;:</div><div class="line">    main()</div></pre></td></tr></table></figure>
+<p>输出的结果：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">Main starts at Sun Sep 27 10:50:48 2015</div><div class="line">Loop 1 starts at Sun Sep 27 10:50:48 2015</div><div class="line">Loop 2 starts at Sun Sep 27 10:50:48 2015</div><div class="line">Loop 1 ends at Sun Sep 27 10:50:50 2015</div><div class="line">Loop 2 ends at Sun Sep 27 10:50:52 2015</div><div class="line">Main ends at Sun Sep 27 10:50:52 2015</div></pre></td></tr></table></figure>
+<p>Threading有3种使用方法：给Threading.Thread的实例传递函数和参数；给Threading.Thread的实例传递可调用的类实例；继承Threading.Thread类，重写run方法，用新类实例化对象。上面用了第3种方法，从代码可以看出，用Threading 实现时，只需要用到join()方法实现同步，不需要手动控制锁的开关，相比Thread更方便，更不容易出错。</p>
+<p>关于Threading模块的几个小点：<br>Daemon的继承</p>
+<p>子线程默认继承上一级线程的Daemon状态，默认所有线程Daemon都是False，如果设置了子线程是True的，默认子线程的子线程（在子线程中新起的线程）是True的。</p>
+<p>在程序2的loop函数前加函数subLoop:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">def subLoop():</div><div class="line">pass</div></pre></td></tr></table></figure>
+<p>在loop函数的最后加2行：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">def loop(loopIndex, nSec):</div><div class="line">    print &apos;Loop %s starts at %s&apos;%(loopIndex, ctime())</div><div class="line">    sleep(nSec)</div><div class="line">    print &apos;Loop %s ends at %s&apos;%(loopIndex, ctime()) </div><div class="line">    t = threading.Thread(target=subLoop)</div><div class="line">print &apos;subLoop\&apos;s daemon status is &apos;, t.isDaemon()</div></pre></td></tr></table></figure>
+<p>再次执行，输出：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">ain starts at Sun Sep 27 11:23:49 2015</div><div class="line">Loop 1 starts at Sun Sep 27 11:23:49 2015</div><div class="line">Loop 2 starts at Sun Sep 27 11:23:49 2015</div><div class="line">Loop 1 ends at Sun Sep 27 11:23:51 2015</div><div class="line">subLoop&apos;s daemon status is  False</div><div class="line">Loop 2 ends at Sun Sep 27 11:23:53 2015</div><div class="line">subLoop&apos;s daemon status is  False</div><div class="line">Main ends at Sun Sep 27 11:23:53 2015</div></pre></td></tr></table></figure>
+<p>将main函数的34行加上setDaemon：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">for i in range(loopNum):</div><div class="line">    t = MyThread(loop, (i+1,(i+1)*2), loop.__name__)</div><div class="line">    t.setDaemon(True)</div><div class="line">    Threads.append(t)</div></pre></td></tr></table></figure>
+<p>再次执行，输出：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">Main starts at Sun Sep 27 11:30:15 2015</div><div class="line">Loop 1 starts at Sun Sep 27 11:30:15 2015</div><div class="line">Loop 2 starts at Sun Sep 27 11:30:15 2015</div><div class="line">Loop 1 ends at Sun Sep 27 11:30:17 2015</div><div class="line">subLoop&apos;s daemon status is  True</div><div class="line">Loop 2 ends at Sun Sep 27 11:30:19 2015</div><div class="line">subLoop&apos;s daemon status is  True</div><div class="line">Main ends at Sun Sep 27 11:30:19 2015</div></pre></td></tr></table></figure>
+<p>新增subSubLoop，subLoop和loop修改如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">def subSubLoop():</div><div class="line">    pass</div><div class="line"></div><div class="line">def subLoop():</div><div class="line">    t = threading.Thread(target = subSubLoop)</div><div class="line">    print &apos;subSubLoop\&apos;s daemon status is &apos;, t.isDaemon()</div><div class="line">    pass</div><div class="line"></div><div class="line">def loop(loopIndex, nSec):</div><div class="line">    print &apos;Loop %s starts at %s&apos;%(loopIndex, ctime())</div><div class="line">    sleep(nSec)</div><div class="line">    print &apos;Loop %s ends at %s&apos;%(loopIndex, ctime()) </div><div class="line">    t = threading.Thread(target=subLoop)</div><div class="line">    print &apos;subLoop\&apos;s daemon status is &apos;, t.isDaemon()</div><div class="line">    t.start()</div><div class="line">t.join()</div></pre></td></tr></table></figure>
+<p>再次执行，输出：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">Main starts at Sun Sep 27 11:34:26 2015</div><div class="line">Loop 1 starts at Sun Sep 27 11:34:26 2015</div><div class="line">Loop 2 starts at Sun Sep 27 11:34:26 2015</div><div class="line">Loop 1 ends at Sun Sep 27 11:34:28 2015</div><div class="line">subLoop&apos;s daemon status is  True</div><div class="line">subSubLoop&apos;s daemon status is  True</div><div class="line">Loop 2 ends at Sun Sep 27 11:34:30 2015</div><div class="line">subLoop&apos;s daemon status is  True</div><div class="line">subSubLoop&apos;s daemon status is  True</div><div class="line">Main ends at Sun Sep 27 11:34:30 2015</div></pre></td></tr></table></figure>
+<p>可以看到子线程和孙线程都是True了，说明Daemon的继承具有传递性。</p>
+<p>setName 设置多个线程同名（没发现有啥用，后续补充吧）</p>
+<p>使用多个join，可能不是你需要的结果，值得注意</p>
+<p>如果有多个线程，程序需要等多个线程都结束再继续（如上文中的程序2），33行开始的for循环里的start()是同时开启所有线程，但是到36开始的for循环里join()并不是同时开始执行的，而是逐个执行。将37行join()前加一行打印：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">for i in range(loopNum):</div><div class="line">    print &apos;join %d start at %s&apos;%(i+1, ctime())</div><div class="line">    Threads[i].join()</div></pre></td></tr></table></figure>
+<p>输出如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">Main starts at Sun Sep 27 11:11:38 2015</div><div class="line">Loop 1 starts at Sun Sep 27 11:11:38 2015</div><div class="line">Loop 2 starts at Sun Sep 27 11:11:38 2015</div><div class="line">join 1 start at Sun Sep 27 11:11:38 2015</div><div class="line">Loop 1 ends at Sun Sep 27 11:11:40 2015</div><div class="line">join 2 start at Sun Sep 27 11:11:40 2015</div><div class="line">Loop 2 ends at Sun Sep 27 11:11:42 2015</div><div class="line">Main ends at Sun Sep 27 11:11:42 2015</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Python 中的多线程有两种模块实现：Thread和Threading。区别是，Thread 是更老的实现模块，同步原语很少（只有锁），而Threading模块则较多；Thread 实现的线程，主线程结束，所有的线程都会强制结束，没有警告也不会有正常的清理，Threadi
+    
+    </summary>
+    
+      <category term="Python" scheme="http://yoursite.com/categories/Python/"/>
+    
+    
+      <category term="原创" scheme="http://yoursite.com/tags/%E5%8E%9F%E5%88%9B/"/>
+    
+      <category term="线程" scheme="http://yoursite.com/tags/%E7%BA%BF%E7%A8%8B/"/>
+    
+      <category term="语法" scheme="http://yoursite.com/tags/%E8%AF%AD%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>极简</title>
+    <link href="http://yoursite.com/2016/08/04/%E6%9E%81%E7%AE%80/"/>
+    <id>http://yoursite.com/2016/08/04/极简/</id>
+    <published>2016-08-04T08:29:27.000Z</published>
+    <updated>2016-08-04T10:59:22.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>工作后，总有种“时间都去哪了”的感觉，想好好学点东西玩点啥都难——没时间。上班是比上学的时候自由时间少一些，但是换个角度，或许是因为事情太多，时间不知不觉就被各种无关紧要的事消磨了？</p>
+<p>在各种新闻和博客里面看到关于产品或设计的简化，谓之扁平化，扁平化的产品不止没有因功能简化而不好用，反而因为减轻了使用的负担，用起来很轻松，很爽，同理我的生活是否可以做个简化呢？所以我特此捋了一捋，才发现真的有很多无益的时间开销，这些开销多了会使人感觉忙忙碌碌，身心疲惫了，实际上可以适当避免，下面列出了部分实例，以作抛砖引玉。</p>
+<p>手机是我平时用的最多的东西了，有时候面临要在多个应用间做选择，比如看书应用，kindle、多看阅读、ibook，还有杂牌的moon reader、iread等，到底用哪个应用呢？事实上，每个应用都有各自的优点，有的能很方便的下载书，有的可以同时支持epub和mobi格式，一般每一个用一遍，很快就能选出两个相对好用的，比如多看和kindle吧。然后就纠结了：两个都不错，kindle字体和翻页更好，但是是mobi格式，不好找书，且必须把书放入kindle的目录才能看，多看同步功能好用，epub书多，但是界面没有kinde舒服。要选出一个更好的，需要花费点时间，特别是在睡觉前，会影响休息（已经导致多次晚睡），那干脆两个都装上，用一段时间就知道哪个更好了。如果一定只能容忍装一个，也没必要在睡前决定，挑个更合适的时间比如等车的时候，所以这件事情在睡前是无关紧要的，选好了也不会马上用，还不如先睡觉。（附录贴出了几种常用的应用，是我试用了多个应用后选出的，欢迎一起讨论）</p>
+<p>关于导致晚睡的原因，还有一个：夜里11点了，有个电影很好看，是强撑看完，第二天多睡一个小时，还是先睡觉，第二天正常起床接着看？事实上，两种情况都把电影看完了，且第二种方法没有影响到睡眠，这个时候强撑看完电影就可以算无关紧要，不过我貌似还是经常撑着看完，得治。。</p>
+<p>在开发的时候也会碰到一些无关紧要的事，例如在开发过程中解决一个问题的同时，往往会引出几个新问题。</p>
+<p>系统需要添加一个用户，查添加用户的命令，连带的就会有好多的选项，这个时候把所有选项看一遍，肯定是可以增加对系统命令的把握程度（开始我也这么干），但是同时肯定会影响开发的效率，可能当天晚上就只能停留在添加了几个用户，并且回过头来，更令人沮丧的是基本上看过的这些隔天就忘了90%，只有真正用到的选项还记得，进一步，如果不是常用命令（添加用户应该不算常用，ls、cp等算常用），到下次再见面，又是陌生人了。</p>
+<p>上个月，我在尝试ctype绕过GIL锁时的例子。我的目的是在python下试一下用ctype绕过全局锁，但是中间碰到两个别的问题：我是在公司电脑（我司电脑不让装虚拟机，只能在windows下测试），而我看的文章介绍的是linux下的操作，所以生成dll的方法有点小差别，windows下面要在函数前加_declspec(dllexport)，表示一个导出的函数，但是如果要深入去查这个函数，搞清楚为啥要这么设计，如果不熟悉VS，感觉就比较难搞清了，所以干脆就一知半解的用吧，总而言之很快的达到了最初的目的。</p>
+<p>生活里也有一些可以简化的事，去菜市场买菜，想买萝卜，学着大妈的样子挑来挑去，仔细对比，谓之专业，殊不知仔仔细细的对比半天，花费了精力和时间，挑到的不见得好，感觉大致上扫一眼就可以了，再者萝卜黄瓜这类消费品，比较便宜，买到难吃的，可以扔了下次再买。</p>
+<p>除了无关紧要的事情，还有一些情绪也是无关紧要的。</p>
+<p>日子那么长，总会碰到挫败，压抑的久了连别人的玩笑听着也像嘲笑，一个失败的事情可能会影响整天的心情。人人都有后悔的时候，会反复的想那几个烦人的场景，要是没有这么做是不是就不会失误了，可是事情已经发生，想第一遍可以是教训，剩下再想多少遍都只是浪费时间，还不如好好把握住眼前的事情，让未来的结果使你满意。其实路漫漫，最终的结果真的不在于那么一两次的失误和一两天的状态，人生不是一蹴而就，而是一种持续的坚持，所以再不要因为某天过得不满意而气馁了。在失误后及时记录原因，然后就可以找点事情做，好转移注意力，控制自己远离失败的情绪。</p>
+<p>最后，评论一下一篇和本文相关的文章，题目叫《请放弃你的无效社交》，看到题目，觉得不应该吧，现代社会人越过越孤单，还要鼓励大家拒绝社交吗？个人觉得城市的人群都缺乏社交，社交的时间太少了，每个人都是健步如飞、忙忙碌碌，且像很多技术人员情商低到没朋友，几乎没有社交，所以有机会，每次社交都是在学习沟通，沟通在工作中也是很重要的，良好的沟通说不定能让你的程序少修改几次也能满足需求，省下时间和精力。所以有人愿意和咱社交，赶紧跪舔，也算是提升必须技能。</p>
+<p>说了那么多，简单来说，就是有些事情可以选择合适的时间再做，有些事情可以不做。</p>
+<p>可以再下面分享你的观点哦。</p>
+<blockquote>
+<p>附录：</p>
+<p>贴一下我对几种应用比较的结果吧：</p>
+<p>|类别|描述</p>
+<p>|—|—|<br>|新闻类|今日头条新闻比较水，但是比较全，刷起来快；zaker更专业一点，不如今日头条轻便；</p>
+<p>|PDF阅读器|福昕阅读器，免费里面算好用的了，可以在影印版文件做批注，很多应用都不行，安卓上用WPS更好，能自动分页适应手机，影印版文件不能分；</p>
+<p>|音乐播放器|网易云音乐，歌单更好吧，这个个人喜好影响比较大；</p>
+<p>|RSS阅读器|PRESS配合feedly，其他的要么就是刷新太慢，要么就是一定要翻墙，feedly如果用google账号登陆需要翻墙，登陆后很少需要翻墙；</p>
+<p>|笔记|锤子便签，印象笔记；</p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;工作后，总有种“时间都去哪了”的感觉，想好好学点东西玩点啥都难——没时间。上班是比上学的时候自由时间少一些，但是换个角度，或许是因为事情太多，时间不知不觉就被各种无关紧要的事消磨了？&lt;/p&gt;
+&lt;p&gt;在各种新闻和博客里面看到关于产品或设计的简化，谓之扁平化，扁平化的产品不止没
+    
+    </summary>
+    
+      <category term="扯淡" scheme="http://yoursite.com/categories/%E6%89%AF%E6%B7%A1/"/>
+    
+    
+      <category term="原创" scheme="http://yoursite.com/tags/%E5%8E%9F%E5%88%9B/"/>
+    
+      <category term="杂文" scheme="http://yoursite.com/tags/%E6%9D%82%E6%96%87/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Django环境搭建常见问题</title>
+    <link href="http://yoursite.com/2016/08/04/Django%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/"/>
+    <id>http://yoursite.com/2016/08/04/Django环境搭建常见问题/</id>
+    <published>2016-08-04T08:25:25.000Z</published>
+    <updated>2016-08-04T11:24:18.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p>前言<br>开始我尝试了在windows下做django的开发，但是问题很多，越做越多，诸如编码、斜杠之类的问题，解决了也意义不大，试过的同学都懂，所以建议尽量linux下搭建吧..</p>
+</blockquote>
+<hr>
+<h4 id="1-虚拟机共享文件配置，hgfs下没有文件"><a href="#1-虚拟机共享文件配置，hgfs下没有文件" class="headerlink" title="1. 虚拟机共享文件配置，hgfs下没有文件"></a>1. 虚拟机共享文件配置，hgfs下没有文件</h4><p>由于我开始时在windows下开发的，所以有些包下好了，一时不好找到源，所以干脆共享给虚拟机，但是虚拟机系统的hgfs文件夹下就是看不到共享的文件，更新了vmware-tools后重启也不行，需要完全卸载vmware-tools后，重启虚拟机然后重新安装vmware-tools，如果没有看到，再重启一下，多试几次就会出现了。</p>
+<h4 id="2-django-手动安装步骤"><a href="#2-django-手动安装步骤" class="headerlink" title="2. django 手动安装步骤"></a>2. django 手动安装步骤</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">wget https://www.djangoproject.com/m/releases/1.8/Django-1.8.3.tar.gz</div><div class="line">#1） 安装</div><div class="line">$ tar zxf Django-1.5.8.tar.gz</div><div class="line">$ cd Django-1.5.8</div><div class="line">$ sudo python setup.py install</div><div class="line">#安装完成后</div><div class="line">$ which django-admin.py</div><div class="line">/usr/local/bin/django-admin.py</div><div class="line">#表示成功</div></pre></td></tr></table></figure>
+<h4 id="3-python从系统自带的2-6-6升级到2-7-x的方法，重装"><a href="#3-python从系统自带的2-6-6升级到2-7-x的方法，重装" class="headerlink" title="3. python从系统自带的2.6.6升级到2.7.x的方法，重装"></a>3. python从系统自带的2.6.6升级到2.7.x的方法，重装</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div></pre></td><td class="code"><pre><div class="line">#系统自带的还是会用到，所以不要卸载</div><div class="line">#首先下载源tar包</div><div class="line">#可利用linux自带下载工具wget下载，如下所示：</div><div class="line">wget http://www.python.org/ftp/python/2.7.3/Python-2.7.3.tgz</div><div class="line">#下载完成后到下载目录下，解压</div><div class="line">tar -zxvf Python-2.7.3.tgz</div><div class="line">#进入解压缩后的文件夹</div><div class="line">cd Python-2.7.3</div><div class="line">#在编译前先在/usr/local建一个文件夹python27（作为python的安装路径，以免覆盖老的版本）</div><div class="line">mkdir /usr/local/python2.7.3</div><div class="line">#在解压缩后的目录下编译安装</div><div class="line">./configure --prefix=/usr/local/python2.7.3</div><div class="line">make</div><div class="line">make install</div><div class="line">#此时没有覆盖老版本，再将原来/usr/bin/python链接改为别的名字</div><div class="line">mv /usr/bin/python /usr/bin/python_old</div><div class="line">#再建立新版本python的链接</div><div class="line">ln -s /usr/local/python2.7.3/bin/python2.7 /usr/bin/python</div><div class="line">#这个时候输入</div><div class="line">python</div><div class="line">#就会显示出python的新版本信息</div><div class="line">Python 2.7.3 (default, Sep 29 2013, 11:05:02)</div><div class="line">[GCC 4.1.2 20080704 (Red Hat 4.1.2-54)] on linux2</div><div class="line">Type &quot;help&quot;, &quot;copyright&quot;, &quot;credits&quot; or &quot;license&quot; for more information.</div><div class="line">&gt;&gt;&gt;</div></pre></td></tr></table></figure>
+<h4 id="4-no-module-named-yum解决办法"><a href="#4-no-module-named-yum解决办法" class="headerlink" title="4. no module named yum解决办法"></a>4. no module named yum解决办法</h4><p>用3里面的步骤安装python后，会出现这个问题<br>解决办法:<br>修改yum文件</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">vi /usr/bin/yum</div><div class="line">#将 #!/usr/bin/python 修改为 #!/usr/bin/python2.4（自己的python版本）</div></pre></td></tr></table></figure>
+<h4 id="5-django安装时报错，invalid-syntax，python版本不对"><a href="#5-django安装时报错，invalid-syntax，python版本不对" class="headerlink" title="5. django安装时报错，invalid syntax，python版本不对"></a>5. django安装时报错，invalid syntax，python版本不对</h4><p>Linux自带的python版本不对，需按照3,4步骤进行升级</p>
+<h4 id="6-django安装时出现缺少setuptools，需要安装setuptools"><a href="#6-django安装时出现缺少setuptools，需要安装setuptools" class="headerlink" title="6.django安装时出现缺少setuptools，需要安装setuptools"></a>6.django安装时出现缺少setuptools，需要安装setuptools</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">Wget https://pypi.python.org/packages/source/s/setuptools/setuptools-18.0.1.tar.gz#md5=cecd172c9ff7fd5f2e16b2fcc88bba51</div><div class="line">https://pypi.python.org/pypi/setuptools 最下方下载</div></pre></td></tr></table></figure>
+<h4 id="7-安装setuptools，报错：Compression-requires-the-missing-zlib-module"><a href="#7-安装setuptools，报错：Compression-requires-the-missing-zlib-module" class="headerlink" title="7. 安装setuptools，报错：Compression requires the (missing) zlib module"></a>7. 安装setuptools，报错：Compression requires the (missing) zlib module</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">yum install zlib</div><div class="line">yum install zlib-devel（注意不要漏这一步，虽然不是zlib）</div><div class="line">#安装完成后，重新编译和安装 python2.7</div><div class="line">Make &amp; make install</div><div class="line">#执行完后，返回setuptools文件夹，python setup.py install 即可</div></pre></td></tr></table></figure>
+<h4 id="8-错误：django-was-No-module-named-mysql-base"><a href="#8-错误：django-was-No-module-named-mysql-base" class="headerlink" title="8. 错误：django was: No module named mysql.base"></a>8. 错误：django was: No module named mysql.base</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&apos;ENGINE&apos;: &apos;mysql&apos;</div></pre></td></tr></table></figure>
+<p>改为<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&apos;ENGINE&apos;: &apos;django.db.backends.mysql&apos;</div></pre></td></tr></table></figure></p>
+<h4 id="9-错误No-module-named-MySQLdb"><a href="#9-错误No-module-named-MySQLdb" class="headerlink" title="9. 错误No module named MySQLdb"></a>9. 错误No module named MySQLdb</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">yum install MySQL-python #注意大小写</div><div class="line">#或者</div><div class="line">wget http://sourceforge.net/projects/mysql-python/files/mysql-python/1.2.3/MySQL-python-1.2.3.tar.gz</div><div class="line">#手动安装</div><div class="line">tar zxvf MySQL-python-1.2.3.tar.gz</div><div class="line">cd MySQL-python-1.2.3</div><div class="line">python setup.py build</div><div class="line">python setup.py install</div></pre></td></tr></table></figure>
+<h4 id="10-centos-安装mysql-（yum-install-msql）-后不能连接数据库"><a href="#10-centos-安装mysql-（yum-install-msql）-后不能连接数据库" class="headerlink" title="10. centos 安装mysql （yum install msql） 后不能连接数据库"></a>10. centos 安装mysql （yum install msql） 后不能连接数据库</h4><p>安装全套<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">yum install mysql</div><div class="line">yum install mysql-server</div><div class="line">yum install mysql-devel（后面两个不要忘）</div><div class="line">#启动mysql 服务</div><div class="line">service mysqld start</div></pre></td></tr></table></figure></p>
+<h4 id="11-mysqladmin-修改密码"><a href="#11-mysqladmin-修改密码" class="headerlink" title="11.mysqladmin 修改密码"></a>11.mysqladmin 修改密码</h4><p>1.例如你的 root用户现在没有密码，你希望的密码修改为123456，那么命令是：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mysqladmin -u root password 123456</div></pre></td></tr></table></figure></p>
+<p>2.如果你的root现在有密码了（123456），那么修改密码为abcdef的命令是：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mysqladmin -u root -p password abcdef</div></pre></td></tr></table></figure></p>
+<h4 id="12-mysql-加入中文出现乱码的解决办法"><a href="#12-mysql-加入中文出现乱码的解决办法" class="headerlink" title="12. mysql 加入中文出现乱码的解决办法"></a>12. mysql 加入中文出现乱码的解决办法</h4><p>1.创建数据库时<br>修改 /etc/mysql 下的 my.cnf 文件<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">[mysql]</div><div class="line"> default-character-set=utf8</div><div class="line">create database MyNewDatabase default character set utf8;</div></pre></td></tr></table></figure></p>
+<p>2.已有数据库<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ALTER TABLE blog_blogpost MODIFY COLUMN body VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL;</div></pre></td></tr></table></figure></p>
+<p>改变出乱码的TABLE 的COLUMN</p>
+<h4 id="13-出现CSRF认证问题错误"><a href="#13-出现CSRF认证问题错误" class="headerlink" title="13.出现CSRF认证问题错误"></a>13.出现CSRF认证问题错误</h4><p>在 view.py 中的 render_to_response 中，使用 RequestContext 来代替默认的 Context 。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">return render_to_response(&apos;contact_form.html&apos;, &#123;</div><div class="line">                          &apos;errors&apos;: errors,</div><div class="line">                          &apos;subject&apos;: request.POST.get(&apos;subject&apos;, &apos;&apos;),</div><div class="line">                          &apos;message&apos;: request.POST.get(&apos;message&apos;, &apos;&apos;),</div><div class="line">                          &apos;email&apos;: request.POST.get(&apos;email&apos;, &apos;&apos;),</div><div class="line">                          &#125;,context_instance=RequestContext(request))</div></pre></td></tr></table></figure></p>
+<p>在模板文件中的 form 表单内添加csrf_token。<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">form</span> <span class="attr">action</span>=<span class="string">"/contact/"</span> <span class="attr">method</span>=<span class="string">"post"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">br</span> /&gt;</span>&#123;% csrf_token %&#125;<span class="tag">&lt;<span class="name">br</span> /&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">p</span>&gt;</span>Subject: <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"text"</span> <span class="attr">name</span>=<span class="string">"subject"</span> <span class="attr">value</span>=<span class="string">"&#123;&#123; subject &#125;&#125;"</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">p</span>&gt;</span>Your e-mail (optional): <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"text"</span> <span class="attr">name</span>=<span class="string">"email"</span> <span class="attr">value</span>=<span class="string">"&#123;&#123; email &#125;&#125;"</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">p</span>&gt;</span>Message: <span class="tag">&lt;<span class="name">textarea</span> <span class="attr">name</span>=<span class="string">"message"</span> <span class="attr">rows</span>=<span class="string">"10"</span> <span class="attr">cols</span>=<span class="string">"50"</span>&gt;</span>&#123;&#123; message &#125;&#125;<span class="tag">&lt;/<span class="name">textarea</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"submit"</span> <span class="attr">value</span>=<span class="string">"Submit"</span>&gt;</span></div><div class="line">  <span class="tag">&lt;/<span class="name">form</span>&gt;</span></div></pre></td></tr></table></figure></p>
+<p>解决方案二：不使用 CSRF 验证<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">MIDDLEWARE_CLASSES = (</div><div class="line">  &apos;django.contrib.sessions.middleware.SessionMiddleware&apos;,</div><div class="line">  &apos;django.middleware.common.CommonMiddleware&apos;,</div><div class="line">  #&apos;django.middleware.csrf.CsrfViewMiddleware&apos;,</div><div class="line">  &apos;django.contrib.auth.middleware.AuthenticationMiddleware&apos;,</div><div class="line">  &apos;django.contrib.auth.middleware.SessionAuthenticationMiddleware&apos;,</div><div class="line">  &apos;django.contrib.messages.middleware.MessageMiddleware&apos;,</div><div class="line">  &apos;django.middleware.clickjacking.XFrameOptionsMiddleware&apos;,</div><div class="line">  &apos;django.middleware.security.SecurityMiddleware&apos;,</div><div class="line">  &apos;django.middleware.locale.LocaleMiddleware&apos;,</div><div class="line">)</div></pre></td></tr></table></figure></p>
+<h4 id="14-在mysql中注入中文乱码的问题"><a href="#14-在mysql中注入中文乱码的问题" class="headerlink" title="14. 在mysql中注入中文乱码的问题"></a>14. 在mysql中注入中文乱码的问题</h4><p>如果数据库中存储的数据包含中文，那么在python的控制台打印查询结果时可能会出现乱码，下面是解决方案：<br>在python脚本开始设置编码方案为utf-8，即在脚本文件开头加上一行：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">#encoding=utf-8</div></pre></td></tr></table></figure></p>
+<p>连接MySQL数据库时设置编码集为utf8：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">conn = MySQLdb.connect(host = &quot;localhost&quot;,</div><div class="line">                 user = &quot;user&quot;,</div><div class="line">                 passwd = &quot;passwd&quot;,</div><div class="line">                 db = &quot;pythontest&quot;,</div><div class="line">                 charset = &quot;utf8&quot;)</div></pre></td></tr></table></figure></p>
+<p>（可选，不一定需要）在脚本文件中设置Python的默认编码为utf-8：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">Import sys</div><div class="line">reload(sys)</div><div class="line">sys.setdefaultencoding(&quot;utf-8&quot;)</div></pre></td></tr></table></figure></p>
+<p>（可选，不一定需要）修改数据库中的编码方案为utf-8。如果使用Navicat，直接从“数据库属性”中即可修改数据库编码方案；如果是Linux下的MySQL数据库，那么需要修改MySQL的配置文件，即设置 MySQL 的 my.cnf 文件，在 [client]/[mysqld]部分都设置默认的字符集（通常在/etc/mysql/my.cnf)：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">[client]</div><div class="line">default-character-set = utf8</div><div class="line">[mysqld]</div><div class="line">default-character-set = utf8</div></pre></td></tr></table></figure></p>
+<p>一般前面两步就行了</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;前言&lt;br&gt;开始我尝试了在windows下做django的开发，但是问题很多，越做越多，诸如编码、斜杠之类的问题，解决了也意义不大，试过的同学都懂，所以建议尽量linux下搭建吧..&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h4 id=&quot;1
+    
+    </summary>
+    
+      <category term="Python" scheme="http://yoursite.com/categories/Python/"/>
+    
+    
+      <category term="原创" scheme="http://yoursite.com/tags/%E5%8E%9F%E5%88%9B/"/>
+    
+      <category term="Django" scheme="http://yoursite.com/tags/Django/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>zz:python 线程，GIL 和 ctypes</title>
+    <link href="http://yoursite.com/2016/08/04/zz-python-%E7%BA%BF%E7%A8%8B%EF%BC%8CGIL-%E5%92%8C-ctypes/"/>
+    <id>http://yoursite.com/2016/08/04/zz-python-线程，GIL-和-ctypes/</id>
+    <published>2016-08-04T08:20:06.000Z</published>
+    <updated>2016-08-04T11:31:35.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>GIL 是什么东西？它对我们的 python 程序会产生什么样的影响？我们先来看一个问题。运行下面这段 python 程序，CPU 占用率是多少？</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"># 请勿在工作中模仿，危险:)</div><div class="line">def dead_loop():</div><div class="line">    while True:</div><div class="line">        pass</div><div class="line"></div><div class="line">dead_loop()</div></pre></td></tr></table></figure>
+<p>答案是什么呢，占用 100％ CPU？那是单核！还得是没有超线程的古董 CPU。在我的双核 CPU 上，这个死循环只会吃掉我一个核的工作负荷，也就是只占用 50％ CPU。那如何能让它在双核机器上占用 100％ 的 CPU 呢？答案很容易想到，用两个线程就行了，线程不正是并发分享 CPU 运算资源的吗。可惜答案虽然对了，但做起来可没那么简单。下面的程序在主线程之外又起了一个死循环的线程</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line">import threading</div><div class="line"></div><div class="line">def dead_loop():</div><div class="line">    while True:</div><div class="line">        pass</div><div class="line"></div><div class="line"># 新起一个死循环线程</div><div class="line">t = threading.Thread(target=dead_loop)</div><div class="line">t.start()</div><div class="line"></div><div class="line"># 主线程也进入死循环</div><div class="line">dead_loop()</div><div class="line"></div><div class="line">t.join()</div></pre></td></tr></table></figure>
+<p>按道理它应该能做到占用两个核的 CPU 资源，可是实际运行情况却是没有什么改变，还是只占了 50％ CPU 不到。这又是为什么呢？难道 python 线程不是操作系统的原生线程？打开 system monitor 一探究竟，这个占了 50% 的 python 进程确实是有两个线程在跑。那这两个死循环的线程为何不能占满双核 CPU 资源呢？其实幕后的黑手就是 GIL。</p>
+<h4 id="GIL-的迷思：痛并快乐着"><a href="#GIL-的迷思：痛并快乐着" class="headerlink" title="GIL 的迷思：痛并快乐着"></a>GIL 的迷思：痛并快乐着</h4><p>GIL 的全程为 Global Interpreter Lock ，意即全局解释器锁。在 Python 语言的主流实现 CPython 中，GIL 是一个货真价实的全局线程锁，在解释器解释执行任何 Python 代码时，都需要先获得这把锁才行，在遇到 I/O 操作时会释放这把锁。如果是纯计算的程序，没有 I/O 操作，解释器会每隔 100 次操作就释放这把锁，让别的线程有机会执行（这个次数可以通过sys.setcheckinterval 来调整）。所以虽然 CPython 的线程库直接封装操作系统的原生线程，但 CPython 进程做为一个整体，同一时间只会有一个获得了 GIL 的线程在跑，其它的线程都处于等待状态等着 GIL 的释放。这也就解释了我们上面的实验结果：虽然有两个死循环的线程，而且有两个物理 CPU 内核，但因为 GIL 的限制，两个线程只是做着分时切换，总的 CPU 占用率还略低于 50％。</p>
+<p>看起来 python 很不给力啊。GIL 直接导致 CPython 不能利用物理多核的性能加速运算。那为什么会有这样的设计呢？我猜想应该还是历史遗留问题。多核 CPU 在 1990 年代还属于类科幻，Guido van Rossum 在创造 python 的时候，也想不到他的语言有一天会被用到很可能 1000＋ 个核的 CPU 上面，一个全局锁搞定多线程安全在那个时代应该是最简单经济的设计了。简单而又能满足需求，那就是合适的设计（对设计来说，应该只有合适与否，而没有好与不好）。怪只怪硬件的发展实在太快了，摩尔定律给软件业的红利这么快就要到头了。短短 20 年不到，代码工人就不能指望仅仅靠升级 CPU 就能让老软件跑的更快了。在多核时代，编程的免费午餐没有了。如果程序不能用并发挤干每个核的运算性能，那就意谓着会被淘汰。对软件如此，对语言也是一样。那 Python 的对策呢？</p>
+<p>Python 的应对很简单，以不变应万变。在最新的 python 3 中依然有 GIL。之所以不去掉，原因嘛，不外以下几点：</p>
+<p>欲练神功，挥刀自宫：</p>
+<p>CPython 的 GIL 本意是用来保护所有全局的解释器和环境状态变量的。如果去掉 GIL，就需要多个更细粒度的锁对解释器的众多全局状态进行保护。或者采用 Lock-Free 算法。无论哪一种，要做到多线程安全都会比单使用 GIL 一个锁要难的多。而且改动的对象还是有 20 年历史的 CPython 代码树，更不论有这么多第三方的扩展也在依赖 GIL。对 Python 社区来说，这不异于挥刀自宫，重新来过。</p>
+<p>就算自宫，也未必成功：</p>
+<p>有位牛人曾经做了一个验证用的 CPython，将 GIL 去掉，加入了更多的细粒度锁。但是经过实际的测试，对单线程程序来说，这个版本有很大的性能下降，只有在利用的物理 CPU 超过一定数目后，才会比 GIL 版本的性能好。这也难怪。单线程本来就不需要什么锁。单就锁管理本身来说，锁 GIL 这个粗粒度的锁肯定比管理众多细粒度的锁要快的多。而现在绝大部分的 python 程序都是单线程的。再者，从需求来说，使用 python 绝不是因为看中它的运算性能。就算能利用多核，它的性能也不可能和 C/C++ 比肩。费了大力气把 GIL 拿掉，反而让大部分的程序都变慢了，这不是南辕北辙吗。</p>
+<p>难道 Python 这么优秀的语言真的仅仅因为改动困难和意义不大就放弃多核时代了吗？其实，不做改动最最重要的原因还在于：不用自宫，也一样能成功！</p>
+<h4 id="其它神功"><a href="#其它神功" class="headerlink" title="其它神功"></a>其它神功</h4><p>那除了切掉 GIL 外，果然还有方法让 Python 在多核时代活的滋润？让我们回到本文最初的那个问题：如何能让这个死循环的 Python 脚本在双核机器上占用 100％ 的 CPU？其实最简单的答案应该是：运行两个 python 死循环的程序！也就是说，用两个分别占满一个 CPU 内核的 python 进程来做到。确实，多进程也是利用多个 CPU 的好方法。只是进程间内存地址空间独立，互相协同通信要比多线程麻烦很多。有感于此，Python 在 2.6 里新引入了multiprocessing 这个多进程标准库，让多进程的 python 程序编写简化到类似多线程的程度，大大减轻了 GIL 带来的不能利用多核的尴尬。</p>
+<p>这还只是一个方法，如果不想用多进程这样重量级的解决方案，还有个更彻底的方案，放弃 Python，改用 C/C++。当然，你也不用做的这么绝，只需要把关键部分用 C/C++ 写成 Python 扩展，其它部分还是用 Python 来写，让 Python 的归 Python，C 的归 C。一般计算密集性的程序都会用 C 代码编写并通过扩展的方式集成到 Python 脚本里（如 NumPy 模块）。在扩展里就完全可以用 C 创建原生线程，而且不用锁 GIL，充分利用 CPU 的计算资源了。不过，写 Python 扩展总是让人觉得很复杂。好在 Python 还有另一种与 C 模块进行互通的机制 : ctypes</p>
+<h4 id="利用-ctypes-绕过-GIL"><a href="#利用-ctypes-绕过-GIL" class="headerlink" title="利用 ctypes 绕过 GIL"></a>利用 ctypes 绕过 GIL</h4><p>ctypes 与 Python 扩展不同，它可以让 Python 直接调用任意的 C 动态库的导出函数。你所要做的只是用 ctypes 写些 python 代码即可。最酷的是，ctypes 会在调用 C 函数前释放 GIL。所以，我们可以通过 ctypes 和 C 动态库来让 python 充分利用物理内核的计算能力。让我们来实际验证一下，这次我们用 C 写一个死循环函数</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">extern&quot;C&quot;</div><div class="line">&#123;</div><div class="line">  void DeadLoop()</div><div class="line">  &#123;</div><div class="line">    while (true);</div><div class="line">  &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>用上面的 C 代码编译生成动态库 libdead_loop.so （Windows 上是 dead_loop.dll）</p>
+<p>，接着就要利用 ctypes 来在 python 里 load 这个动态库，分别在主线程和新建线程里调用其中的 DeadLoop</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">from ctypes import *</div><div class="line">from threading import Thread</div><div class="line"></div><div class="line">lib = cdll.LoadLibrary(&quot;libdead_loop.so&quot;)</div><div class="line">t = Thread(target=lib.DeadLoop)</div><div class="line">t.start()</div><div class="line"></div><div class="line">lib.DeadLoop()</div></pre></td></tr></table></figure>
+<p>这回再看看 system monitor，Python 解释器进程有两个线程在跑，而且双核 CPU 全被占满了，ctypes 确实很给力！需要提醒的是，GIL 是被 ctypes 在调用 C 函数前释放的。但是 Python 解释器还是会在执行任意一段 Python 代码时锁 GIL 的。如果你使用 Python 的代码做为 C 函数的 callback，那么只要 Python 的 callback 方法被执行时，GIL 还是会跳出来的。比如下面的例子：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">extern&quot;C&quot;</div><div class="line">&#123;</div><div class="line">  typedef void Callback();</div><div class="line">  void Call(Callback* callback)</div><div class="line">  &#123;</div><div class="line">    callback();</div><div class="line">  &#125;</div><div class="line">&#125;</div><div class="line">from ctypes import *</div><div class="line">from threading import Thread</div><div class="line"></div><div class="line">def dead_loop():</div><div class="line">    while True:</div><div class="line">        pass</div><div class="line"></div><div class="line">lib = cdll.LoadLibrary(&quot;libcall.so&quot;)</div><div class="line">Callback = CFUNCTYPE(None)</div><div class="line">callback = Callback(dead_loop)</div><div class="line"></div><div class="line">t = Thread(target=lib.Call, args=(callback,))</div><div class="line">t.start()</div><div class="line"></div><div class="line">lib.Call(callback)</div></pre></td></tr></table></figure>
+<p>注意这里与上个例子的不同之处，这次的死循环是发生在 Python 代码里 (DeadLoop 函数) 而 C 代码只是负责去调用这个 callback 而已。运行这个例子，你会发现 CPU 占用率还是只有 50％ 不到。GIL 又起作用了。</p>
+<p>其实，从上面的例子，我们还能看出 ctypes 的一个应用，那就是用 Python 写自动化测试用例，通过 ctypes 直接调用 C 模块的接口来对这个模块进行黑盒测试，哪怕是有关该模块 C 接口的多线程安全方面的测试，ctypes 也一样能做到。</p>
+<h4 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h4><p>虽然 CPython 的线程库封装了操作系统的原生线程，但却因为 GIL 的存在导致多线程不能利用多个 CPU 内核的计算能力。好在现在 Python 有了易经筋（multiprocessing）, 吸星大法（C 语言扩展机制）和独孤九剑（ctypes），足以应付多核时代的挑战，GIL 切还是不切已经不重要了，不是吗。</p>
+<p>转自：<a href="http://zhuoqiang.me/python-thread-gil-and-ctypes.html" target="_blank" rel="external">http://zhuoqiang.me/python-thread-gil-and-ctypes.html</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;GIL 是什么东西？它对我们的 python 程序会产生什么样的影响？我们先来看一个问题。运行下面这段 python 程序，CPU 占用率是多少？&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutte
+    
+    </summary>
+    
+      <category term="Python" scheme="http://yoursite.com/categories/Python/"/>
+    
+    
+      <category term="转载" scheme="http://yoursite.com/tags/%E8%BD%AC%E8%BD%BD/"/>
+    
+      <category term="线程" scheme="http://yoursite.com/tags/%E7%BA%BF%E7%A8%8B/"/>
+    
+      <category term="原理" scheme="http://yoursite.com/tags/%E5%8E%9F%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>zz:十年学会程序设计</title>
+    <link href="http://yoursite.com/2016/08/04/zz-%E5%8D%81%E5%B9%B4%E5%AD%A6%E4%BC%9A%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/"/>
+    <id>http://yoursite.com/2016/08/04/zz-十年学会程序设计/</id>
+    <published>2016-08-04T08:18:38.000Z</published>
+    <updated>2016-08-04T11:43:40.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Peter Norvig (Copyright 2001) <a href="http://www.norvig.com/21-days.html" target="_blank" rel="external">原文网址</a><br>为何大家如此匆忙?<br>走进任何一家书店，你会看到书架上一排不见尽头的放着如 <7天自学java语言> 以及几天或者几小时学会Windows, 因特网或者Visual Basic 这类书。我在Amazon 网上书店用一下的方式进行高级搜索:<br>出版年份: 1992以后　书名包括：“天” 和 “学习” 或 “自学”<br>得到了268条搜索结果，其中前78条都是计算机书（第79条是 30天学会孟加拉语）。 我用 “小时” 代替“天” 作为关键字，得到了神奇般类似的结果：这次有253本书，前77本是计算机书， 第78本是 24小时自学语法和写作风格。排名前200的书中有96%是计算机书。<br>由此可见，人们要不就是急着想学会计算机，要不就是计算机相比于其他事情太容易学会了。比如说把，没有书是写在几天弹奏贝多芬或几天学会量子物理，甚至也没有几天学会帮小狗打扮这样的书。<br>让我们分析一下 三天学会Pascal语言 [英文网页] 这样的标题表达了什么意思：</7天自学java语言></p>
+<h4 id="学会"><a href="#学会" class="headerlink" title="学会:"></a>学会:</h4><p>在 三天内，你没有时间去写几个有意义的程序，或者从成功和失败中学到东西。你也没时间跟有经验的程序员一起工作，所以也无法了解在真正编程是什么样子。简短 的说，就学会而言，时间显然不够。所以这些书只是浮于表面的熟悉，而不是深刻的理解。如同Alexander Pope 所说，一知半解是危险的。</p>
+<h4 id="Pascal-语言"><a href="#Pascal-语言" class="headerlink" title="Pascal 语言:"></a>Pascal 语言:</h4><p>三 天内你可能学会Pasacl语言的语法（如果你已经掌握一个类似的编程语言），但你无法学会如何合理运用这些语法。简言之，如果你是个Basic 程序员，你可以用Pascal 语言写出类似Basic 风格的程序，但你学不到Pascal语言的优点（还有缺点）到底在哪。重点是什么呢? Alan Perlis 曾说: “如果编程语言不能影响你的编程思维，那就不值得去学.” 另一个可能是，你必须学会一点点Pascal语言（或是像VB语言、Javascript等），因为你需要跟现成的工具组合完成特定的工作。不过这个时候，你实际上学的不是怎么写程序，而是要学着如何完成工作。</p>
+<h4 id="三天"><a href="#三天" class="headerlink" title="三天"></a>三天</h4><p>不幸的是三天根本不够；下面的章节会告诉你为什么</p>
+<h3 id="十年学会程序设计"><a href="#十年学会程序设计" class="headerlink" title="十年学会程序设计"></a>十年学会程序设计</h3><p>研究者 Hayes, Bloom 的研究表明，在几乎所有的各种领域，大约要十年才能培养出专业技能。这些领域包括下西洋棋、音乐作曲、绘画、钢琴、游泳、网球，及神经心理学和数学拓扑学。似乎没有真正的捷径－－即便是莫扎特在四岁就展露出音乐天才，在他写出世界级的音乐之前仍然用了超过十三年的时间。<br>再看另一种类型的领域。披头士乐团似乎是在１９６４年的Ed Sullivan 剧场表演突然地火起来并成为第一乐队的。但其实他们从 1957 年开始，就在利物浦、汉堡等地的小型俱乐部表演。虽然他们很早就显现强大的吸引力，但他们决定性的成功作品 Sgt Pepper 也到1967年才发行。Samuel Johnson 则认为或许还不止十年才行，他说：任何领域的卓越成就都必须用一生的努力才能取得; 稍微低一点的代价都是换不到的。Chaucer 则感叹道： “生命如此短促，学习技艺却要这么地长”<br>以下是我在编程上成功的秘诀:</p>
+<ul>
+<li>对编程产生感兴趣并因为乐趣而写程序。确信你自始至终都能乐在其中，这样你才愿意将十年光阴投入编程事业.</li>
+<li>与其他程序员交流；阅读别人的代码。这比任何书任何培训都重要。</li>
+<li>不断地编写。 最好的学习方法是在实践中学习 。从技术角度说，”在特定领域的个人最高效率并不因为经验够多就会自动获得；但若有意识的通过努力去提升经验，个人效率会变高”（第336页）而 “高效的学习一般需要明确的任务和因人而异的适当难度，以及及时的反馈和重复或者修正错误的机会”（20～21页）Cognition in Practice: Mind, Mathematics, and Culture in Everyday Life （实践中认知：心智、数学与日常文化） 是这个观点的一本有趣参考书籍。</li>
+<li>如 果你愿意，你可以去读四年大学（或再读研究生）。这可以让你满足一些工作的学历要求，同时也可让你对这个领域有更深的认识。但如你不喜欢上学，你也能（得 有牺牲）通过工作获得类似的经验。无论如何，只读书是不够的。《New Hacker’s Dictionary》的作者Eric Raymond 曾经说过: “计算机的教育无法让人成为编程的专家，正如研究画笔与颜料不能让人成为专业画家一样.” 一个在我所有招聘过的人中属于最优秀之一的程序员只有高中毕业，但他写出很多很棒 的程序，他甚至有自己的新闻组。他获得的股票期权使得他可以拥有自己的午夜酒吧.</li>
+<li>跟其他程序员一起完成项目。在一些项目中成为最好的程序员；在一些中则充当最差的一个。当你是最佳的，你要测试自己领导项目的能力，并以你的能力鼓励他人。当你是最差的，要看看高手做些什么，他们不喜欢做什么 (因为他们会叫你去帮他们做).</li>
+<li>接手别的程序员完成项目。全心投入并理解别人的程序。当原作者不在的时候，看看在理解与修改时有什么要注意的。想想如何设计你的程序使得后来维护的人容易上手。</li>
+<li>至 少学会六门编程语言。一种要支持类/对象(class abstractions)的语言, 如Java或C++; 一种函数式(functional abstraction)语言, 如 LISP 或 ML; 一种支持语法抽象(syntactic abstraction) 的语言 如 LISP; 一种声明式语言, 如Prolog或 C++模版; 一种支持协同式(coroutines)编程, 如 Icon 或 Scheme; 还有一种支持并行(parallelism)的语言, 如 Sisal.</li>
+<li>记住在 “计算机科学” 中包括”计算机” 这个词。要知道你的计算机执行一条指令需要多久，到内存中取一个字需要多久(缓存是否击中), 到磁盘读取连续的字需要多久，而磁盘的定位又需要多久. (解答见文末)</li>
+<li>进行语言标准化的工作。可以像是由ANSI　C++ 委员会，或由你自己的团队，来决定你们的编码风格，譬如说缩排是2或4个空格。不管怎样，你都能学到别人到底喜欢什么，对语言的感受有多深，甚至能了解到一点他们为什么有这样的感觉。</li>
+<li>并具备良好的判断力，也别老纠缠在语言标准化上.</li>
+</ul>
+<p>谈了上面所有的想法后，我不禁要问究竟能从书上学到多少。在第一个孩子出生前，我读完了所有的 “怎样…” 的书，仍觉得自己是个一无所知的（照顾孩子的）菜鸟。30个月后，第二个孩子出世，我要重回这些书好好复习么? 不! 取而代之的是，我开始相信自己的个人经验。这些难得的经验，比专家写的几千页手册还要有用，而且让我重新找到了自信.<br>Fred Brooks (译注: &lt;人月神话&gt;作者) 在他的文章 没有银弹 中指出，发掘卓越软体设计者的三部曲：<br>１．尽早尽可能地以系统化的方式发掘最佳设计人员。<br>２．给有潜力者指派生涯规划师，并谨慎地规划他们的职业生涯。<br>３．提供机会给正在成长的程序员，让他们能相互影响，彼此激励。<br>这里假定了某些人已具备成为卓越设计师的必要潜能；工作只是诱导他们前进。Alan Perlis 说得更简洁了，你可以教任何人学雕塑，但对米开朗基罗而言，要教他的<br>反倒是有哪些事不要做, 卓越的程序员也一样。<br>所以，尽管买那些 Java 书吧！你或许能从中找到点有用的，但是在24小时，几天或者几个月中，这些都不会改变你的人生，你也不能掌握一个真正的程序员应该具备的真正的综合的技能。</p>
+<blockquote>
+<p>参考文献:<br>Bloom, Benjamin (ed.) Developing Talent in Young People, Ballantine, 1985.<br>Brooks, Fred, No Silver Bullets, IEEE Computer, vol. 20, no. 4, 1987, p. 10-19.<br>Hayes, John R., Complete Problem Solver Lawrence Erlbaum, 1989.<br>Lave, Jean, Cognition in Practice: Mind, Mathematics, and Culture in Everyday Life, Cambridge University Press, 1988.</p>
+</blockquote>
+<p>解答:<br>各种操作的时间，以2001年夏季，典型配置的 1GHz 个人计算机为标准：</p>
+<table>
+<thead>
+<tr>
+<th>操作</th>
+<th>时间</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>执行单一指令</td>
+<td>1 纳秒    </td>
+</tr>
+<tr>
+<td>从L1 高速缓存取一个字</td>
+<td>2 纳秒    </td>
+</tr>
+<tr>
+<td>从内存取一个字</td>
+<td>10 纳秒    </td>
+</tr>
+<tr>
+<td>从磁盘取连续存放的一个字</td>
+<td>200 纳秒    </td>
+</tr>
+</tbody>
+</table>
+<p>磁盘寻址并取字  |  8 毫秒    </p>
+<ul>
+<li>朋友在用的. 当人们问我:”我该用什么操作系统的时候”， 我通常的回答是：“用你朋友用的”. 这样的好处是从朋友那儿学习可以弥补复杂的操作系统差异或者编程语言差异(给你造成的困惑)。这里也要考虑你未来的朋友：如果你一直使用的话，开发社区会 是你的朋友。你选择了一个具有有巨大的增长的开发社区还是一个小的快消失的开发社区的语言? 它有相关的书，网站和论坛可以获取解答么? 你喜欢那些论坛上的人么?<br>附录 I: 语言的选择<br>好几个人问过我一开始应该先学哪个计算机编程语言，这个问题没有唯一的答案，不过选择的时候可以从以下的几个方面考虑：</li>
+<li>保持简单. 诸如C++和Java 是为那些关心代码执行效率的有经验的大型团队的开发人员设计的。因此这些语言中有些为这些特殊场合设计的部件。你只是关心编程而不需要关心复杂情况。你需要一个为新学编程的人设计的容易学习和理解的语言。</li>
+<li>实践. 什么是学习钢琴的好方法呢? 是一边听音一边弹奏的“交互式” 的方法呢，还是全听完整首歌然后再弹奏的那种“批处理”方式呢? 很显然, 交互学习的方式能够让学钢琴变得简单–这也适用于编程. 选取一种交互式的编程语言并且坚持使用.<br>基于以上的这些标准，我对于第一次接触编程的人推荐 Python 或 Scheme. 但是情况各有不同，或许也有其他的选择. 如果你不满10岁，你可能会喜欢Alice 或者Squeak(年龄大的人或许也喜欢这些). 重要的是在选择后, 立即开始学习和使用.<br>附录II: 书和其他资源:<br>很多人问我该从什么书或者什么网页开始看起。我重申一句：“仅仅看书是不够的”，不过我也推荐一下的一些：</li>
+<li>Scheme: 计算机程序的结构和释义 (Abelson &amp; Sussman) 可能是计算机科学最好的导论了, 他还告诉程序员怎么理解计算机科学, 你可以访问这本书的 在线视频讲座 和 全文在线. 这本书也很有挑战性，可能会排除掉一些可能在其他领域成功的人.</li>
+<li>Scheme: 怎样设计程序(Felleisen 等) 是讲解怎样设计优雅的函数式语言的最好的书之一.</li>
+<li>Python: Python 编程，面向计算机科学的导论 (Zelle) 是用Python 介绍计算机科学的好书.- Python: 一些关于Python的 入门教程 可以在 Python.org 上找到.</li>
+<li>Oz: 计算机编程的概念，技术和模型(Van Roy &amp; Haridi) 可以视为第一本书的现代版. 他是关于编程的一些总揽，包含了比第一本书更加广泛也更加容易阅读和理解的领域。这本书使用了一个不太为人所知的编程语言叫 Oz, 不过这个可以作为学习其他编程语言的一个基础。<br>注: T. Capey 指出，在Amazon 的 问题彻底解决者 的页面上购买了这本书的人还买了: “21天学孟加拉语” 和 “自学语法和写作风格” 这两本书，我估计大部分是我这个页面带过去的用户.<br>Peter Norvig (Copyright 2001)<br>Eric You XU 翻译，2007年4月<br>译者附记:<br>这是一篇经典的揭示计算机学习和计算机编程领域浮躁苗头的文章。原有的中文翻译链接已经失效，因此特此重新翻译一次。在翻译的过程中，我参考了台湾网友的部分遣词造句以及个别我不能理解的句子的含义，特此向他表示感谢.<br>如果有什么地方因为个人水平疏漏翻译不到或者打字错误的地方，恳请网友不吝指出。 我的邮件地址是 youxu A@T wustl.edu, 把 A@T 换成 @, 我叫Eric You XU, 你可以直接叫我Eric.<br>转自：<a href="http://blog.youxu.info/21-days/" target="_blank" rel="external">http://blog.youxu.info/21-days/</a></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Peter Norvig (Copyright 2001) &lt;a href=&quot;http://www.norvig.com/21-days.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;原文网址&lt;/a&gt;&lt;br&gt;为何大家如此匆忙?&lt;br&gt;走进任何一家
+    
+    </summary>
+    
+      <category term="方法" scheme="http://yoursite.com/categories/%E6%96%B9%E6%B3%95/"/>
+    
+    
+      <category term="方法" scheme="http://yoursite.com/tags/%E6%96%B9%E6%B3%95/"/>
+    
+      <category term="转载" scheme="http://yoursite.com/tags/%E8%BD%AC%E8%BD%BD/"/>
+    
+  </entry>
+  
+</feed>
