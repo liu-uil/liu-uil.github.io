@@ -547,9 +547,51 @@
     <link href="http://liu-uil.github.io/2015/09/27/Python-%E5%A4%9A%E7%BA%BF%E7%A8%8B%E6%A8%A1%E5%9D%97Threading%E5%92%8CThread/"/>
     <id>http://liu-uil.github.io/2015/09/27/Python-多线程模块Threading和Thread/</id>
     <published>2015-09-27T08:30:08.000Z</published>
-    <updated>2016-08-04T15:27:08.000Z</updated>
+    <updated>2016-08-05T13:00:52.000Z</updated>
     
-    <content type="html"><![CDATA[<p>Python 中的多线程有两种模块实现：<strong>Thread</strong>和<strong>Threading</strong>。区别是，Thread 是更老的实现模块，同步原语很少（只有锁），而Threading模块则较多；Thread 实现的线程，主线程结束，所有的线程都会强制结束，没有警告也不会有正常的清理，Threading因为有守护线程的概念，可以确保非守护线程结束后进程才退出。简单来说，就是Threading的同步机制更加完善，下面是两个模块各自的函数对比：<br>表1 Thread模块函数和Lock类型锁对象方法<br><img src="http://chuantu.biz/t5/25/1470323562x3745824026.png" alt=""></p>
+    <content type="html"><![CDATA[<p>Python 中的多线程有两种模块实现：<strong>Thread</strong>和<strong>Threading</strong>。区别是，Thread 是更老的实现模块，同步原语很少（只有锁），而Threading模块则较多；Thread 实现的线程，主线程结束，所有的线程都会强制结束，没有警告也不会有正常的清理，Threading因为有守护线程的概念，可以确保非守护线程结束后进程才退出。简单来说，就是Threading的同步机制更加完善，下面是两个模块各自的函数对比：<br>表1 Thread模块函数和Lock类型锁对象方法</p>
+<table>
+<thead>
+<tr>
+<th>函数</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Thread模块函数</td>
+<td>-</td>
+</tr>
+<tr>
+<td>start_new_thread(function, args[, kwargs])</td>
+<td>Start a new thread and return its identifier. The thread executes the function function with the argument list args (which must be a tuple). The optional kwargs argument specifies a dictionary of keyword arguments. When the function returns, the thread silently exits. When the function terminates with an unhandled exception, a stack trace is printed and then the thread exits (but other threads continue to run).</td>
+</tr>
+<tr>
+<td>allocate_lock()</td>
+<td>Return a new lock object. Methods of locks are described below. The lock is initially unlocked.</td>
+</tr>
+<tr>
+<td>exit()</td>
+<td>Raise the SystemExit exception. When not caught, this will cause the thread to exit silently.</td>
+</tr>
+<tr>
+<td>Lock类型锁对象方法</td>
+<td>-</td>
+</tr>
+<tr>
+<td>acquire([waitflag])</td>
+<td>Without the optional argument, this method acquires the lock unconditionally, if necessary waiting until it is released by another thread (only one thread at a time can acquire a lock — that’s their reason for existence). If the integer waitflag argument is present, the action depends on its value: if it is zero, the lock is only acquired if it can be acquired immediately without waiting, while if it is nonzero, the lock is acquired unconditionally as before. The return value is True if the lock is acquired successfully, False if not.</td>
+</tr>
+<tr>
+<td>locked()</td>
+<td>Return the status of the lock: True if it has been acquired by some thread, False if not.</td>
+</tr>
+<tr>
+<td>release()</td>
+<td>Releases the lock. The lock must have been acquired earlier, but not necessarily by the same thread.</td>
+</tr>
+</tbody>
+</table>
 <p>表2 Threading 模块对象和Thread类对象方法</p>
 <table>
 <thead>
