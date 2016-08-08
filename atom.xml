@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://liu-uil.github.io/"/>
-  <updated>2016-08-04T13:56:41.000Z</updated>
+  <updated>2016-08-08T04:58:52.000Z</updated>
   <id>http://liu-uil.github.io/</id>
   
   <author>
@@ -14,6 +14,40 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>搬家啦</title>
+    <link href="http://liu-uil.github.io/2016/08/08/%E6%90%AC%E5%AE%B6%E5%95%A6/"/>
+    <id>http://liu-uil.github.io/2016/08/08/搬家啦/</id>
+    <published>2016-08-08T04:56:42.000Z</published>
+    <updated>2016-08-08T04:58:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>原先的博客是搭建在阿里云上的，用的Django框架，Python 语言，当初的本意是能独立完成一个作品，作为练手和展示，后来那个博客确实起到了它被期望的作用，</p>
+<ul>
+<li>通过一个项目熟悉了基本的游戏规则</li>
+<li>Django 这个笨重的架构，虽然功能齐全，但都需要手动加入，环境搭建配置踩了很多坑</li>
+<li>看不下去默认页面的丑陋，自己动手整起了js </li>
+<li>时不时数据库出个问题，或者需要排查个系统故障，都要自己动手</li>
+</ul>
+<p>总的来说，如果对互联网行业的工作了解不多，自己动手搭建和维护一个站点还是不错的。<br>现在渐渐往业务方向发展，也不大想折腾底层服务，于是现找了个管家托管一下，<strong>以后就只专注于内容更新了</strong>。</p>
+<p>这个管家就是Github 了，配合hexo可以很快做出漂亮轻便的个人站点。免费的500m空间，应该够写个十年了，往后就在这里长住。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;原先的博客是搭建在阿里云上的，用的Django框架，Python 语言，当初的本意是能独立完成一个作品，作为练手和展示，后来那个博客确实起到了它被期望的作用，&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;通过一个项目熟悉了基本的游戏规则&lt;/li&gt;
+&lt;li&gt;Django 这个笨重的架构，虽然功
+    
+    </summary>
+    
+      <category term="扯淡" scheme="http://liu-uil.github.io/categories/%E6%89%AF%E6%B7%A1/"/>
+    
+    
+      <category term="扯淡" scheme="http://liu-uil.github.io/tags/%E6%89%AF%E6%B7%A1/"/>
+    
+  </entry>
   
   <entry>
     <title>给Python开发者的PHP初级教程</title>
@@ -194,9 +228,9 @@
       <category term="PHP" scheme="http://liu-uil.github.io/categories/PHP/"/>
     
     
-      <category term="方法" scheme="http://liu-uil.github.io/tags/%E6%96%B9%E6%B3%95/"/>
-    
       <category term="原创" scheme="http://liu-uil.github.io/tags/%E5%8E%9F%E5%88%9B/"/>
+    
+      <category term="方法" scheme="http://liu-uil.github.io/tags/%E6%96%B9%E6%B3%95/"/>
     
       <category term="Python" scheme="http://liu-uil.github.io/tags/Python/"/>
     
@@ -467,9 +501,9 @@
       <category term="方法" scheme="http://liu-uil.github.io/categories/%E6%96%B9%E6%B3%95/"/>
     
     
-      <category term="方法" scheme="http://liu-uil.github.io/tags/%E6%96%B9%E6%B3%95/"/>
-    
       <category term="原创" scheme="http://liu-uil.github.io/tags/%E5%8E%9F%E5%88%9B/"/>
+    
+      <category term="方法" scheme="http://liu-uil.github.io/tags/%E6%96%B9%E6%B3%95/"/>
     
   </entry>
   
@@ -820,11 +854,11 @@
       <category term="Python" scheme="http://liu-uil.github.io/categories/Python/"/>
     
     
-      <category term="转载" scheme="http://liu-uil.github.io/tags/%E8%BD%AC%E8%BD%BD/"/>
-    
       <category term="线程" scheme="http://liu-uil.github.io/tags/%E7%BA%BF%E7%A8%8B/"/>
     
       <category term="原理" scheme="http://liu-uil.github.io/tags/%E5%8E%9F%E7%90%86/"/>
+    
+      <category term="转载" scheme="http://liu-uil.github.io/tags/%E8%BD%AC%E8%BD%BD/"/>
     
   </entry>
   
